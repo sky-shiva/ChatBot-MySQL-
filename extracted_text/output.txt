@@ -1,0 +1,5759 @@
+
+--- PAGE 0 ---
+TheComplete
+SQL
+HondBook
+Notes _
+IpS-
+Ex=
+34>
+Cemgrehensive_
+~HtandwiHten Bd
+Bhavana
+and
+--- PAGE 1 ---
+Ontents
+LIntckunkon-t Databases
+2Tt yc-tion - SQL [Basic_Coceetz]
+2.1-
+Tables
+2.2-
+Qews
+Re-tiev
+Data
+24 Upda-te
+2,5
+Delete
+Cous
+2.6. Alter Tables
+3Querira
+SQL
+34.Compavison Opertoz
+3*2 .
+Strnd
+Operators
+33.
+Logical
+Operators
+34
+In and
+Betieen Operators
+3-5-
+Order
+Bd
+and
+Distinct
+Aagregations gd Gryp G
+4.1
+~aare
+4 2'
+Grop Bt
+Cemmon Conceets
+5*4._QL
+Expressions
+5-9.
+SQL
+Funa-tions
+Databases:
+6,4-
+Core
+Concepts
+0 8
+Er Hodel
+6.2.
+Croa-tinq
+Reltiomal Database
+Notes by Bhavana
+Cseatind _
+Treertind
+2.3
+8002o
+Qitb
+Rga-tions
+Modelina
+--- PAGE 2 ---
+Toins
+7.4-
+Natural
++2.Inner
++3
+LePt
+74'
+Pight Tofo
++5-
+16. Crss Toin
+and_Subqueries
+Indexes
+Transac tion
+9i. Transac-tions
+9.2. Indezes
+Notes by Bhavana
+Join
+Join
+Join
+join
+Full
+Velas
+an
+--- PAGE 3 ---
+Introduc-tion
+t
+Da-tabases
+oncepts
+Focus
+*Data
+Database
+Database Management System (DBKS)
+Advarttaqes ,
+Jh
+Tapes 0f Databases,,
+Rela-tional Database
+4va
+Nh_
+RelaHonal-Database'
+#Data
+(vsflode tck
+Any
+SorE: op  inDrma-Hon ~hat
+Sored
+~alled Aata
+Examplest;-I1
+Messaqes
+mulimedia
+bhatSAPP
+Products ad
+Order
+mazon
+Contacl details
+telephone 4
+et.
+7Database
+7A
+Organized
+collecHon
+data % called
+Sktbas _
+Database
+Hanagement Ststem ( DBHS)
+7 A
+SoPtware
+#alb
+sed
+t0
+easild
+S-tore
+and
+access
+~ata
+Rom #he Aatabase in
+secure
+cay
+web Arpliation
+Servers
+AI Holls
+DBHS
+Recemmenclation
+Databse
+Enaines
+Notes
+by Bhavana
+irctoy
+--- PAGE 4 ---
+Advantages
+Data is Slored
+Maintained
+*Ease 08 Use
+Ptovides stmpler wys
++ create
+ypdala
+Aata & the rate
+it i
+raspectiveld'
+47 =
+and
+Durable and  provides
+access
+in time
+t all -he
+cliente at
+ani
+'elut
+InixFri:
+perRormance
+Qufekly accessible to all.#e clents (grpl
+aalions and
+stakeholend
+Tipes o8 Databases
+There 'are 'diffarent: types of da-talases
+based
+hocs
+Lje
+~rqanize "-te
+data -
+Relatical
+valde"
+Esomm
+Famild
+Graph
+Document
+Relalional Database :-
+In
+relaHional ' databases _
+#2
+te
+Rprm
+tobles
+Notes by Bhavana
+Secutt
+securely"
+upbkd
+generated
+an
+Availabiktd `
+-Durobrltd
+poict
+ciaal I< -
+Key"
+Acta
+Orjanized
+--- PAGE 5 ---
+Non_ Relational Da-tabase
+~Graph, keyvelue
+Column
+Famild
+Document .
+Cc
+Cae
+~These_
+Toui_
+ar
+PPered
+non
+rel tional
+tapes.
+commonty
+databases.
+Note
+* cholee o
+~alabas
+deperd}
+our tequiremen t5
+Eelational database
+6 #he
+most
+commonlt
+used st
+base
+Relational . DBHS
+Rela Honal
+DBHS
+DBhS
+designed Spec-Acall
+Lo
+database
+Qelatonal
+~ataba ses
+rela-tional
+te dta
+in #2
+Bm
+op +ables:
+Oracle
+poxt:
+SQl_
+My SQL,
+sqLite,
+Sel
+Examples
+are=
+Server
+IBM DB2, et
+7Non- RelaHional DBHS
+relational
+DBHs ' i4
+a DBHS
+Aasigned
+Spea-
+Por
+non 
+relational databases" Non -relational ~atabases
+re +he _ata
+non-tabulr
+Br.
+Examples
+Elas#csearch
+CachDB
+Dtnamodb,
+oDB _
+Z4asandra
+Redis ctc-
+Notes
+by Bhavana
+}anise
+Reama
+Non 
+hong
+--- PAGE 6 ---
+Imroduc-lion
+t
+SeLLBasics]
+8Q1
+Stands &
+Stuctured
+Query
+SQL %
++ per Brm' operatton
+' Rancihal
+DBHS
+SQ1
+is dealataHve
+#tence, eay
+leom:
+_lauses
+4Ona
+Mando) +
+SQL
+Ptovi des
+multple
+and &ekte
+Ifke" create; retreve, update
+Valous Opera-Hon
+Uaa
+the
+data:
+Greate
+Table
+7Creates
+ne
+table
+in the database
+Syntaxt
+CREATE
+TABLE
+#able_name (
+clumn+ typet 
+column2
+type?
+3
+#e
+ar
+#e
+datatyres
+Here
+typel; and itype?
+Datatypes +at
+and
+column ?
+respec-tve
+4
+dumn
+belob
+in' "SQlare:me
+n;Honed
+are
+le
+Create
+Player ~table ~b Sbre he ~l
+details
+Hayerg:
+~olumn_name
+Aata_type
+name
+Varchar (200)
+INT/INTEGER
+a9e
+INT
+Integer
+sode
+Notes
+by Bhavana
+4sed
+PecRm
+91n
+Syn-tax
+Pparted
+Examp
+slloaiod
+--- PAGE 7 ---
+CreAte
+TABLE
+player("
+name
+VARCHAR(20) ,
+318A7
+aqe
+InteGEr;
+8c0re 
+InteGEr
+We
+can
+check'" the de tarls o8 the crated
+toble
+poin+
+~ime
+Hhe
+PRAGMA
+Fomm
+and
+ant
+usind
+Da-ta Types {-
+cata
+~ypeg
+are
+4sed
+SQL'
+Datatype
+Syntax
+INT| INTEGER
+Integer
+Hoat
+FLOAT
+stin9
+VARCHAR
+Text
+Text
+7
+Date
+DATE
+Time
+TIME
+Pate-Hme
+DATETIHE
+Boolean
+BooLEAN
+Note
+Boolean
+Values
+ar
+stord
+integers
+0 (FALSE) and
+Ctrue)
+Dte objec+
+reprea ented
+as
+Yyyy
+Notes bv Bhavana
+Requentd _
+Follouoird
+--- PAGE 8 ---
+3. Datetime object %
+reprysented
+Ty-HM-DD Hhits
+PRAGMA
+PrAGIHA_TABLE
+INFD
+command
+mtUms
+#e
+f-korma-
+bott
+speal ftc table in
+database'
+exptox
+PRAGIMA TABLE_TNFO ( tabk-name)
+6i9o
+Examgle
+Leth -And
+ot te
+informa-
+the
+emplotee
+Lable
+4ha+
+Mne database.
+PrAGIMA TABLE_
+INFo(employee)-
+Note
+#anf
+IP
+iven Table
+doez
+1
+exish
+PRAGHA TA,E
+3
+name
+INFO doesny div Axt . result-
+Inseclina
+Rows
+INSERT
+clause
+used +
+in sert
+neu
+rouy
+table_
+Santax
+INSERT INT
+~able
+C colsmn
+column
+2,7
+colurnN)
+VALUES
+Value 4 _
+Value
+Value
+N)_
+Jaluen) _
+Valyez,
+value
+And
+nom
+ber
+rour
+Rom
+4
+be inserted
+{nto
+"spcikd
+Fable
+ucfng  Hhe
+bavetes
+SyntBkavana
+Kon
+4r
+Hon
+preaen+
+4e
+name
+1 ,
+can
+--- PAGE 9 ---
+Da-labase
+Player
+bable
+444 sores
+The  detall
+platter?
+~oumamen+ ,
+respeteld-
+cor
+pladers.
+player  ~able
+store
+HHe name
+Example
+Insert
+and
+score
+op
+plodtere
+in the pkyer
+mme
+a88
+Table.
+INSERT
+INTO
+score )
+player
+name
+98e
+VALUES
+Rakesh
+39, 35)
+6sa:"
+47,38);
+dxta -code _
+bo+h +e entriea
+execy
+#na
+#2
+abov@
+esould
+added
+4o -he
+player ,
+~table
+Let Vied -#e 'added
+data !
+Kk
+can
+m+reve
+the iqxerted
+dlata
+usind te -&h
+csmmand
+csind
+8ELECT
+FrOM
+ploder.
+24le4
+name
+Sco5'
+Qakesh
+39
+~35
+Sai
+47
+38
+Notes by Bhavana
+The
+and
+Upon
+--- PAGE 10 ---
+possible
+Histakesk
+Misteke
+number
+vaues
+uelr
+tnser-Kd'
+Match
+He
+nunber"0+4
+coljmn
+speo;-Red
+in ~Hhe quert
+Jo=
+SQL
+Insert
+INTD
+play &'
+name;
+288_
+VAWES
+Uiret
+34)
+DuPu
+cdunsi Bt
+Enor
+Value $
+e8pr
+Histake 9
+-Tablee
+42.
+hue_have -o
+specr-%d
+onld
+He
+databases
+v13
+Dy
+SQL'-
+Insert
+INTO
+scoe
+In-frmA-tion
+name:
+player_
+VALUES
+X
+Uirat
+34 38)
+gdeytt
+Ertor
+such tble
+pleyjer - TnBrR-Kon
+Hiskkez;
+paren-thests
+VALUES
+D
+not
+add   additional
+word in 4he
+aede_
+395
+INsERT INTO
+Score
+nome ,
+~je,
+Notes
+by Bhavana
+mu3f
+The
+nanes
+07h
+score
+existidd
+key 
+pay
+Pl-yer
+--- PAGE 11 ---
+VALUES
+(
+Qakesh"_
+39,
+35), ("Stt,59,40;
+euteyt
+pr
+~okumns
+Enor
+walues
+Mistqke
+Al
+te data-tyres
+Lohile
+insertind
+Axta.
+shoula
+be
+tlue
+Aata-type
+te inptt
+hes.
+Same
+#e
+Adumn
+dxa-
+tape _
+INSERT:
+INTO
+Player (
+name
+a88,
+score
+"ui
+VALES
+Uirat
+70
+Htundred 9
+Q4&nig-
+IP
+the
+input
+Velue
+doesn' +
+Ake
+datature
+SQ LHeerte
+does #
+op column;
+match
+0th
+4h2
+Hcla-type
+raise
+an @mon
+Data
+SELECT
+ause
+used
+rehieve
+70S
+~table 
+Database
+"The database
+consists
+pladter
+Table
+sbres
+Ho de
+58
+LJho
+are
+part
+~toumment
+3-ore s
+Paycre
+and
+scone
+~p, Plouers
+Toble
+Sele
+stird  Specx-fc
+Columns
+To
+reltieve
+te
+dal
+op "onld
+"'spechGc
+celumng
+Avn
+tble
+add
+Hhe respec-Hve
+celumn
+names
+He
+SELECT
+clause,
+Notes
+by Bhavana
+with
+Cane;
+Input
+Retriering
+Rom
+pla4e
+toils
+"J8
+nam
+--- PAGE 12 ---
+Syn-tax
+Select
+Column 4,
+Columni,
+cdumn
+FROM
+table
+name
+Example
+km
+Let!g
+Petk
+Hhe
+nome
+and
+aqe
+4he
+Plederz
+4t2
+phyer table.
+SELECT
+name,
+a8e
+FroM
+Plad
+euteu:-
+name
+age
+Vire+
+32
+Rakesh
+Sai
+AlI
+Columns
+want
+~o,
+select
+4e colmns
+Sometimes, Usse
+med
+oue
+cdumn
+mame
+Pr eved
+Rom
+tble
+Typird
+everd
+#he
+dcto. would
+b0
+pln_
+Hme
+0e
+have
+rttve
+Syntexi-
+Select
+RROn
+table_name
+Notes by Bhavana
+Seleetcd'
+--- PAGE 13 ---
+Example
+~rom the player table
+Ge
+all , +e
+dota: o
+pladers
+SELECT 4
+Fror
+plexer_
+eutput
+core
+name
+e82
+Uiret
+32
+Qakesh
+3ai
+Spec;Hc
+Qous
+he
+u3e
+WHERE
+clause
+rctvieve
+onld
+rcs
+Syrtax:
+SELECT
+From
+tadle
+name
+iErE
+condition
+4MhERE
+clause speci-
+cendition
+4At
+ha -to
+He d+a
+Rom
+2database
+sals-
+Ped
+Por
+Exanple:
+Get
+name
+#e
+Lnos
+mrme
+Pam
+te
+Player table
+SELECT
+Fron
+Player
+WHERE
+name
+Sai
+euluk :
+name
+ag2"
+scer
+Sai
+Notes by Bhavana
+Selectind
+specifte
+Rep
+retievied
+phyer
+em
+Sde
+Rrm
+--- PAGE 14 ---
+(Update_Rws;
+UPDATE
+clause
+6 Ysed
+40"
+H1 data
+an @x8
+tadle_
+database
+he
+can update
+all #he
+only
+Spec iic
+mcs
+per #e
+requirement -
+Update all
+Rows
+Syntax *
+UPDATE
+Table_
+name
+SET
+column 1
+Uolue $;
+Example 
+Update
+Player
+SET
+score
+IO0_
+Update Specikc
+rows
+Syntax>
+UPDATE
+Aable
+nam
+SET
+columni
+Valuel
+WHERE
+celumn
+valye 2
+Example : -
+UPDATE
+play er'
+Set
+score
+IS0
+Hhere
+name
+"'Qam'
+Notes by Bhavana
+update
+eS
+--- PAGE 15 ---
+Delete
+Rowsi
+DELETE
+clause
+to ` delete
+cords
+Tom
+table:
+Dektc
+AlI
+Pows
+'Untax
+DELe Te
+FROM
+table
+name
+Example -
+Delete all #2
+Reus
+Asm   player table
+DEL ETE
+Fram
+Player;
+Delete
+Speci Rc
+Qouss
+DELETE
+FeaM
+table
+namo
+LJHERE
+lumn]
+Value4
+Example
+Delete
+sknm"
+Ron
++2
+plyer
+tabe
+Ndte:
+Lje
+can
+Uniqu
+'ely (dent-id
+player  ed
+name
+DELETE
+Froh
+player
+KHErE
+name
+Notes by Bhavana
+exutird
+Used
+yntax
+shm
+--- PAGE 16 ---
+We
+can
+not
+rotriove
+#e cata
+once
+L2
+debte
+Warntrd
+4he
+data ~Prum +ettables
+DROp -table
+rop
+clouse
+used
++
+delete
+table
+Ro #he
+~otabase
+Suntax:
+fiL
+Drop
+TABLE
+table_name
+Example
+Delete
+player
+4abk
+Aom the
+database
+DROP TABLE
+phyer
+Ater_Talle
+ALTER
+alause
+used
+~to
+odd
+delete _
+mod;-At
+edumns
+4able _
+Add
+Column
+Sintax
+AlTer TABLE
+table _
+name
+ADD
+a2
+Dnn
+namo
+datatype
+Notes by Bhavana
+exislied
+--- PAGE 17 ---
+Example  -
+~Add
+new
+column jersey_num
+0P type integer + Khe
+4able .
+ALTEr
+TABLE
+player
+ADD
+jersed
+nun INT
+Note
+aded
+Columns
+#ne
+De Pault
+Values
+recac
+ei (
+Null
+7
+Rename
+Column
+Syntax
+ALTER
+TABLE
+table_name
+QENAME
+cOLuhN
+T Cz
+Example
+Qename
+4he
+column
+jersed
+num
+42
+player
+table
+4
+jeced
+number:
+ATER
+TABLE
+RENAHE
+COLUHN jerey-num
+TU jersey-nunte;
+plater
+Notes by Bhavana
+plaqer
+neusd
+existicd
+--- PAGE 18 ---
+Column
+Syntax; _
+ALter TABLE
+table_
+name
+DROP
+OLUAN
+Column_name
+Example:-
+Qemove
+the
+Column
+number
+Rm
+He   pleger
+jered :1
+Yable .
+ALter
+TABLE
+DROP
+CoLUMN   jersey
+number
+Nole
+DROP
+COLUMN
+not
+supported
+som@
+DBhS,
+includiei
+sQLite
+Notes by Bhavana
+Drop
+player
+--- PAGE 19 ---
+Queraina
+ki+h SQL
+ompariso
+OBratoe;-
+Ezx
+In
+@-Commene
+scenar0,
+usera
+would
+deneralld
+tipical
+wact
+purchase
+AHer He Product8
+ith
+ood
+mHo9s
+cectain
+peoplepiee_
+brand
+Produc+
+cerbain
+used
+Plter suck
+Lelx
+s2e
+Aocs
+10m
+parison operatrz
+kind
+data
+te
+slloci?8
+database.
+usin3
+#Database
+The
+cdatabase
+produal
+Table
+Hhat
+S-ore $
++he
+brnd
+produc t  like
+name;
+catajord 
+Xn_
+omparison
+Operator
+Opera-to
+Descriplion
+Equals
+t
+Not equabs
+Less +han
+Less +han
+equal +0
+Greater #han
+raA ter
+or equaltol
+Notes by Bhavana
+t2
+ar
+0p
+Contalnt
+ar
+Price
+Ata
+#an
+--- PAGE 20 ---
+Examples : -
+Get
+#e
+dataib
+0P the_podicbo
+Lhose
+catead
+Pooa
+Pom
+the
+producl table.
+SElEct
+From
+'produae
+WHErE
+categord
+Oulpue: -
+name
+Sate9r
+Pricc
+brand
+ratina
+Chocolate coke
+Food_
+25
+B4tannia
+Steckery
+cake
+Exd
+@adeur
+045
+hecelale_Cahe
+Food
+Ced
+Yhal
+dbes
+not
+Get all #e
+celili
+Hhe
+Food
+cateded
+Aom '442t prodict table .
+SELECT.
+From
+prodkkh
+where;
+Food
+ategpry
+eutpot
+name
+cale94
+prce
+brand
+Blye
+skint
+skthin
+160
+Denim_
+3'8
+Ele
+Jean
+Eelhnl
+Q00
+pom9
+5*&
+cl+io
+750
+Denim
+Blecr
+jeam
+Notes
+by Bhavana
+Food
+Ly
+belongs
+preduc+
+rattina
+--- PAGE 21 ---
+Snilard:
+L2
+aan 4se
+oHer
+@m
+Opera-+z
+lik e
++(7-), less
+#Kan ( <),
+moter
+#an
+8rea-ter thon
+Aller   Hke Yata
+Rer #te (cqui -
+Hon
+equl +o
+C:)
+remene-
+Skinq
+Opeations
+LIKE
+Operator
+LIKE
+oper-tor
+used
+Brm "queres
+s-tricos
+~HERE
+lause
+t retneve
+Thpe
+epera-tor i
+espacially
+used
+tte
+rouk
+that matck tle Jiven pattern:
+wiklcard
+charoctes
+We
+Lon+2
+pa-Her
+4sicd
+te
+Blloctz
+Symbol:
+Deserption
+Exanele
+Qepesnt
+zem or moe
+chk Ands d dlips,chcos %
+percent 38"
+characterz
+Unaqr Sco1o
+Representz
+sngle
+al Ad mat_
+hat
+bat..
+charaater
+
+'ommon paHtems
+paHem
+Example
+Descrip-tion
+Exacl
+KOHERE
+name LIKE
+Qatrieres, broduc+g kohoxe
+name
+Match
+Mobiles"
+exachly
+emk
+moblles'
+
+KHERE
+name
+LIKE  atieves prduchs
+Uhose
+name statk?
+starg
+mobiles y.
+wth
+mobiles"
+KHERE
+namc
+LTKE;
+Retievez
+product okaio
+me
+with
+ekmobiles
+ent
+0it "mo biled"
+koheR
+namp
+LIkE
+prduc+
+Lhne
+name Certln
+Qanta z
+#{-mobiles %
+U#th
+"mNletes by Bhavana
+Panton
+equal
+leas
+coit6
+Fnt
+Qatrivez
+--- PAGE 22 ---
+Pattem
+'LHERE
+rame LTkE
+Retleveg
+Ptockuct
+Lnre
+ard
+have
+least
+Hakchinq
+a_%
+st0it7
+@harac ter
+lerd
+Sintax
+SELEcT
+From
+Lable_name
+LheRE
+c1
+LIKE
+pattem
+Examples I -
+Gel all
+He] prrduc+$
+#e
+Gjodqet;
+ealeqory
+Pom
+Hhepradual
+Hable.
+SELECT:
+FRoM
+Produe t
+KHERE
+LIKE
+Giadqots"
+aatoqory
+Oupul
+name
+Qategery
+Pricc
+brand
+rating
+Smark hatch
+Gadgek
+00O
+Apple
+4.9
+Smart
+Com
+Sjad3212
+2600
+Qealme
+Smsit
+TV
+Gadgt
+4d000
+Sony
+40
+eealme _Smart
+Oadgets
+3000
+Realme
+46
+Band
+Notes by Bhavana
+mm2
+6i4
+matching
+--- PAGE 23 ---
+Get all
+Produc+
+wohase
+mame
+Starh With
+Bourbmn'
+He
+prodex
+tabe.
+SELEcT
+Fro =
+predach
+KHERE
+name
+LIKE
+Bourbon%
+Her
+repre senk
+~hal_
+Ryllacoin9
+the' sto
+Bourbon
+LaC
+mort
+chorcters;
+Oulput:-
+name
+Catcpry
+price
+brard
+Bourbon
+Small
+Eped
+Britanna
+3.9
+Bourbon Speaial
+Food
+J41
+Britannia
++6
+Boutbon koith exha cok iex
+Food
+Brtannia
+44
+Get all
+Jmart
+electronia products
+name
+Smarl"
+oo
+jthe
+product
+table
+SELECT
+From
+Prduct
+Vhere
+name
+LIKE
+7Smot
+Hee
+be pre
+and
+3-Ple: 'the"
+represen %
+tter
+aa be
+or mior
+Zharacterz
+He
+Notes by Bhavana
+Prom
+4e
+#era
+raticz
+i2.
+contair
+~+in3"
+Hat
+succeeding
+precedid
+sird
+--- PAGE 24 ---
+name
+Qatlegoy
+Price
+brand
+Smrt
+Klrtch
+Giadgetz
+17000
+Apple
+49
+2600
+ramle
+47
+Smort Cam
+Gqadgek
+Smart
+TV
+Gradgels
+too00
+Sony
+Qedlme_Smt Rand
+Acp+
+300
+Realme
+46
+Get
+all, +e
+# Khich
+have
+exactd
+Tc "
+characterz
+brand
+Rom ste preduc
+tble-
+SELECT
+FroM
+Prdduct
+LJHERE
+brand
+LIKE
+Otpuke
+name
+catcgory
+price
+brand
+Elue ShiL
+Jothio
+750
+Denim
+346
+cbthing
+750
+Denm
++5
+Blaek_Teons
+Smatk_koateh
+Gadge8
+17000
+APee
+4on
+Nele:
+used
+Lken
+Ke
+ar
+not
+sur
+J+
+He
+Tlepercent
+Sar (**)+
+"in '+e Stin
+number op
+Charelers
+9P
+Le
+knau  the. exaat : , length
+#e
+"stind
+#R
+pfldeerd
+charcten underscoreC-) Comez
+handl
+Notes by Bhavana
+Output
+ratna
+Prduc _
+Fif  +
+rata
+preserk'
+thee"
+--- PAGE 25 ---
+[Leaical_Openta
+@rd
+pi+h
+loaical  operators_
+We
+can
+perem
+queres
+based
+mul-tiple
+condi#ona'
+Lepa
+leamn
+AND; OR, Not
+perator
+DescHp-Hon
+AND
+Used
+to Rtch;
+Fouts
+salisly tub -
+more carditks
+6r
+Usal +-
+Retd tous 4xt satse
+#eglien cudd-
+No1
+Used -t
+negate
+condion In
+te LhErE
+clause
+Suntax
+SELECT
+From
+Loble _
+Name
+Lohre
+Condi-Honal
+condiHan
+epera tor
+condi-kon3
+Example:
+4
+dekaik
+0p +e produats kshose
+and
+pnce
+less #han
+equal
+LDoO
+He
+produet
+tadle
+SELEC
+Froh
+Produal
+LHERE
+Satego =
+AND
+ptce *5
+(poo
+Notes by Bhavana
++At
+Lat
+epar-br
+Gel
+"dlotkicd"
+categery
+Pom
+alothrca'
+--- PAGE 26 ---
+oulputx
+hame
+cateanry
+pricc
+brdnd
+Oia 
+Blueshtt
+clotng
+150
+peniam
+3'3
+Bl Tean f
+clothing
+800
+pymq
+Dlacr Teans
+cltking
+750
+Denium
+name
+containfha
+cake" AAom
+(Tgrore
+all  he
+products
+WHK
+#he
+Uist
+0-0 produats-
+SELECT
+From
+pradluc t
+KoheRE
+not
+name
+LIKE
+dcake %
+outpur -
+name
+categord
+Price
+brand
+Blue shirl
+750
+Denium
+3.8
+Blue_Teans
+clothing
+800
+u mo
+3.6
+Gkck_Teens
+750
+Denium
+45
+MuHliple
+Loaiaal opera-tors:
+bJq
+caq al3o
++e
+combina tions
+loqical opera-tors
+comblne
+Mora
+conditions
+The se
+pOuad
+Con -
+tu-he
+Hbe Sata
+re hrieva (
+@quti Me-
+ditons
+enable
+nt3.
+precedence
+bohen
+qu2ry
+has
+HKele ' operators_
+opefato precednce
+determatog
+#e
+reque nce
+60  oper-Htons
+Notes by Bhavana
+ra+ing
+clottici
+clothial
+use
+40
+~An-
+--- PAGE 27 ---
+Not
+#igl
+Drder 00 precedence
+AND
+Not
+AND
+O
+Dr
+Lokj
+Example
+Fetch
++ne
+produa +ts
+Hhoe
+belrx
+40
+##han
+Qedmi
+brand
+and
+ra-tirq
+H2
+Products
+onzplus
+brand
+SELECT
+FRON
+roduar
+Kjhere
+brand
+Qedmi
+AND
+ratina
+Or
+brnd
+8n
+4dn
+3ueii
+AnD
+has the
+pre cedence
+over
+In+e
+above quer
+H2
+bore
+equi vale
+nt +o
+So ,
+qued
+SELECT
+Froh
+poduer
+MAEL
+re
+bram
+Reami
+Ap" ratira
+or
+brand
+orpus
+Notes by Bhavana
+Areater
+Ror
+plus"
+--- PAGE 28 ---
+Quick Tip: It %
+Sugaested
++0
+lways
+uje parentes
+t enxm
+2oneatess Lohlle
+aroupinq
++
+Cond:Hons
+IN
+and
+BETWEEN
+Qper-Jars_ 
+IN
+Opera-tor; _
+Pom
+the table AP #e
+Qe tieres #He
+2077
+'ponding
+nocar
+value
+oP
+dumn(c4) %
+present
+in Ake
+qiven
+Values (V4
+1 6"
+Synttax:
+SELECT
+Fror
+table
+namc
+LHERE
+ci
+In (4
+Ul,jJ:
+Exomple :
+GeF
+#e
+Aetails
+4e producly
+~Rom produet
+fable _
+Kohere
+Lhe
+brand
+efter
+puma
+Ho Ai"
+LQU ;
+Leo"
+penlm
+SEL ECT
+From
+poducl
+where
+brand
+TN
+puma"
+"Levi'8" ,
+Hulh" _
+"Lee
+"Denim
+Notes by Bhavana
+--- PAGE 29 ---
+output
+name
+category
+Price
+brand
+rakcx
+Blue shlrt
+4l#ing
+760
+Denium
+3*8
+alue
+Teans
+800
+puma
+3.6
+Glacr
+jeans
+clo #hing
+750
+Derim
+45
+BETEEN
+Opera-tor  -
+all -2 tocos
+Pom
+Yable
+#hol
+hove
+Zolumn (C4)
+Retriere $
+Value
+sent
+betueen
+the
+aiven
+ranqe
+(vs &nd v2)_
+pre
+Syn-tax:-
+SELett
+Froh
+table_name
+KjhEre
+Between
+AND Vi ;
+Note:
+BETJEEN opera tor
+imlusive
+ie,
+bot #e buer
+Upper
+Iimit Valucz 6 the
+ranqe
+am
+Imlyded
+Example
+Find
+te
+Pro
+duak
+6t
+Idoo *o
+56oo
+ranaird
+SELECT
+name
+price
+brand
+Notes by Bhavana
+elthind
+and
+Ram
+price
+--- PAGE 30 ---
+Froh
+preduch
+k#re
+price
+beteen
+io00
+AND
+5000
+Output
+n9n
+Price
+brand
+Blue
+shict
+100O
+puma
+Smatt
+cam
+9600
+Realme
+Realme
+Smart   Band,r
+3000,
+Realme
+possible
+Histakes
+bhen
+tno
+BETWEEN
+eperator , the
+Value
+shoild
+usiaq
+second
+value
+I nol, We
+qet
+incorech
+b2
+re sull
+depending
+the
+pBHS
+SELECT
+name
+prc2
+brand
+From
+produch
+WhEre
+priae' Cetrjeen
+500
+AND
+300 ;
+outpub? r
+nAM
+prce
+brand
+Notes by Bhavana
+Aat
+less
+--- PAGE 31 ---
+kje
+hane +
+dive
+bolh louer Iimlt
+an
+upper
+limit
+Lhi le
+spec %ra
+ranqr
+SELECT
+name,
+prce
+brand
+Froh
+Produak
+LJHERE
+Prce
+3etheen
+AND
+z00;
+euTUT:
+Enor
+Neadr
+AND"
+Syntax
+42
+Por
+uhiah
+Lelm
+usind
+#e
+Sata
+type
+Mul
+match
+wi k
+#e
+cx
+types
+o€ #e
+BETUEEN
+operattor
+loer
+and
+Upper limts;
+SELECT
+name
+brand
+Froh
+product
+LHERE
+name BETWEEN
+500
+AND
+5o
+QuE26-
+name
+brtce
+bmd
+Notes by Bhavana
+@nor
+lumn
+The
+Price_
+--- PAGE 32 ---
+OrDeR By
+ar
+DISTINcT
+ORDEr By
+ke
+uj
+ORDER
+cbuse
+to oder
+ey da-kuk;
+Order By
+sorts + Hata
+in the asending order
+Element
+Apele
+FoX
+Ballocs
+BalloolJ
+esls
+coij
+ped
+Appie_
+Elem ent
+Doq
+Fok
+Sxtax
+SELBT
+colmnt;
+column?,
+column
+Froh
+tabla
+namo
+Lhere Cond;ton 
+RpEr By
+dumni
+ASc
+DESC _
+column 2
+Asc| DESC
+Examele : Get all producta
+order-6l kst
+plca &nd
+Kalest 
+SELECT
+ratind
+Puma
+brand
+name
+64ti78
+Notes by Bhavana
+tols .
+piice
+--- PAGE 33 ---
+CroM
+Produah
+Lhere
+brand
+puma
+OrdEr By
+Pric@
+Asc
+ra-hr}
+DESC
+eutpul 
+Name
+price
+Black shitt
+600
+48
+Blue _jeans
+300
+3.6
+Blue
+shict
+Lo0o
+DISTINC7
+lause i
+ufed
+4
+ttum
+#e
+dish{nct
+6.8_
+DISTINCT
+unique
+value
+Syntaxh-
+SELECT
+orsTINCT
+Column 4_
+colmn 2/
+columN
+FRoM
+table_ name
+~ohtre ,
+Ccond;ion]
+Notes by Bhavana
+rating
+--- PAGE 34 ---
+Example
+Get all
+Hhe brnde
+present
+in #e
+prodat "tabk
+SELECT
+DISTINCT
+brand
+FROH
+orber
+brand
+eubpu3*
+Brand
+~Absa 
+Aedle
+Paa
+na-tion
+ina Hion ,
+Onu
+ckunk o +he
+data
+Gan
+Pa&
+He
+based
+Hef rewuest
+And
+#e
+rxt
+sen+
+ucer
+hunk
+0Q
+data
+can be
+Retcked
+o8
+Lhen -Hhe
+user
+afks
+Ror iL'
+LIAIT
+and
+OFFSET
+elauses,
+relect
+cknt
+Lje
+use
+o0 4e
+LIHIT-
+Aaure
+ufed
+To
+spee;fy #e
+num
+ber 68
+Jous(n) 
+LIHTT
+We
+kruld like
+hare
+in  resull'
+Notes by Bhavana
+predecF
+Usind
+rckk
+--- PAGE 35 ---
+SELECT
+cdumn
+Column 
+Columan
+From
+table_
+name
+IHIT
+:
+Example
+SELECT
+3
+name
+Price ,
+ra-Hn
+8
+From
+3
+Product
+~
+LAERE
+brna
+puma
+Order 'By
+DESC
+1
+LIHIT
+outeylt
+name
+phic
+rting
+Blak shit
+600
++8
+Blue shit
+1000
++3
+Notes by Bhavana
+Eyntar:
+rlind
+--- PAGE 36 ---
+Nole -
+Han 4he t-tal
+number
+TQ +e
+limit
+value
+rows,
+ten
+Uill
+rtieved:
+OFFSET
+te paciton ( Rom (nt#
+OFFSET
+used
+Spec}-d 
+selected:
+rocy)-Bom @hor
+#2
+chunk o) #e
+rsulla
+ar
+SELECT
+Colum
+Column 9 /
+Colomn N
+From
+Lable_
+name
+LIHIT
+OFFSET
+Example
+5 top
+rated Ptodct3, _startini
+@. Get
+all #e de-taiks
+FOte
+746
+SELECT
+name,
+price,
+raar
+&
+Froh
+producF
+ORDER
+ra+in3
+DESC
+LIHTT
+DFFSET 6
+Notes by Bhavana
+Areater
+rouls
+clausez
+Ayntax:
+Rom
+--- PAGE 37 ---
+eukeut?
+name
+raknd
+Burbon $peclal
+46
+Peae
+Eand
+3000
+46
+an
+Gobbt & Arc
+431
+46
+1lni_
+Black
+Tean}
+craom
+onion
+possible
+Mistakes
+Usins
+OFFSET
+be-Bre' #he"
+LIHIT
+clause
+SELECT
+Froh
+Prodyct
+OFFSET 2
+LIAIT
+P
+Oumpur -
+Eror
+near
+"2"
+Strtar
+emr
+OFFSET clause
+ond
+SeLect
+ouleuE:- Enor
+neor
+Atox emy
+Froh
+ptokr €
+OPESET 2
+Nole
+D1FSET Slouse choyld ,
+Plxed
+a Pter
+He
+LIAIT
+claux
+Defailt
+oFFsEt
+fs 0 .
+Notes by Bhavana
+Prce
+lme -
+Smot
+{ue
+pcHte;"
+tand
+dupt
+Polat
+4 $
+Usird
+kue
+--- PAGE 38 ---
+reqa-torg and
+hk
+perBrm
+Such
+scenaras
+Combne
+a9ar-qa-Kox
+h,e
+(ndivi dual
+SCorey +
+an
+ple  vlues
+Into
+sioq
+value,
+fCbre,
+averde
+Aidreaa-ton Functions
+mul-Hple
+into
+sinale
+value  i
+called
+Folloc=
+ar
+#e
+Rnetong provided
+d
+SaL
+993
+icd
++
+perkrm a88re&9
+~e &iven data.
+Aaa"
+aHon Func-Hor}
+Description
+CoUnT
+cunt_tbe
+number
+values
+SuH
+Adds
+#e
+Udues
+HIN
+Peturnz
+4e
+minimum
+value
+##e
+maiimum
+value
+HAX
+Retumg
+4
+kculate 4e
+Qr
+rade
+Ave
+Syntax+
+SELECT
+agreaate _-Ryncton ( c1)
+agregate
+Punction (c)
+Froh
+TABLE
+Nele
+Ke
+can
+calculate mullpl aaatcaate ' fincton g
+Inale
+quey:
+Notes by Bhavana
+Group
+Jallce
+Cembinind
+qatren
+tor
+valuer
+--- PAGE 39 ---
+Examples_
+1. Geh ##e
+Acal
+run
+rcared
+Ram
+Hrom
+4
+plades-
+Malch_deJaiks
+Yable .
+SELECT
+SUM
+Scor
+Froh
+playRr_ match _ de-talls
+LJHERE
+name
+Qam
+Oulpul  
+SUh ( score)
+221
+2.GjeF
+#e
+kiahest
+an
+least
+SC0/eg
+amons
+#e
+
+happened
+fa 4He
+20/1
+SELECT
+MAY
+(scor2)
+HIN
+SCjro))
+Feah
+0
+player
+Match_delaik
+where
+#ear
+20 [|
+e4tp45 *
+MAX Cscore)
+HIN (scar
+75
+62
+Notes by Bhavana
+matchea
+4a
+iar
+--- PAGE 40 ---
+Count
+Variants
+Calcubte 4 +tal
+numbrr
+malces] pkyed
+Hhe
+tournament `
+VartanE
+SELECT
+Count ()
+Froh
+player_match_ de-tails
+Varan€
+SELECT
+ount (4)
+Froh
+details ;
+VatanF 3-
+SELECT
+Count()
+Froh
+match'_details
+Alayer
+outpyt
+Varantl,
+Varant
+and
+Vadant 3
+All #e
+Varan+3
+Variant
+VaHan|
+an
+Wahan+
+#e
+Samo
+reSulk: I3-
+Note 
+In SQL, ~lherel}
+diflerence
+be-tcen
+Usino
+an
+@dunT
+( cdum
+name)
+@oun(+)
+Thss
+Runc-tion
+counk
+#he
+tola
+number
+op
+rotus
+table,
+regrd E
+less
+wheather  ard
+spociAc
+column
+Con-Iai m
+NULL
+Ualues ,
+It
+Counk
+rows _
+Includim
+NULL
+and
+retums
+the -blal counl-
+Notes by Bhavana
+Alayer -
+ma-Ich_
+ie,
+Couni( =
++hose
+lucs,
+--- PAGE 41 ---
+count ( column_ramo) 
+7his
+Counis #he
+number
+NUll
+values
+in te Speci-Red
+column:
+excludes
+NUl
+values Qum #he
+count
+and
+only
+onsidera
+the
+Non -
+NUll
+values
+Li _
+Lke <peci Red
+cdumn;
+Ipecial
+Cases
+Kohen SUM
+applied 0
+nan
+numero
+dala
+Iies
+Like
+sL7n9
+data
+Lime
+date Lime
+ekc
+s@Lile
+DBNS
+0 D
+ond
+resql
+PBH$ 1-tturns nong
+Auareghle
+and -hoir autputs
+:
+ZAadregete
+Funo
+oueput
+MTN
+MAX
+Based
+texicrgraphi c
+Suh, AvG
+depends o
+DBAS)
+COUNT
+De
+Fault
+bekauiour
+NUL
+Values
+are
+Jnored
+nhile
+the agdreg-
+
+~tokeval
+999
+egate
+are
+aFeled
+cnly
+NUL
+values
+Axgreqate
+Qinctons
+PULput
+HIN
+NULL
+HAX
+NULL
+Sum
+NULL
+CDUNT
+AvG1
+NUlNotes by Bhavana
+Runc-Hon
+Alon -
+IKn
+Rinction
+retnt
+Post9
+Pync Hione
+strin8
+tion? =
+orderin8
+computind
+lues.
+Gunc-tions
+--- PAGE 42 ---
+Aias
+As
+can
+Provide
+alyerale Aempoay
+key-eord
+names
+4he
+columns
+the   outpyt .
+SELECT
+44 ,
+02
+As
+From
+tble _
+name
+Exanele
+Get
+all ~he:
+names o playerz
+Lith
+coljmn
+name
+42
+playor=
+name:
+SELECT
+Mom
+nameAS
+ployer
+Froh
+mateh
+de-lails;
+OutPU
+plauer
+name
+Ram
+Toseph
+Notes by Bhavana
+Uatnd
+tr
+player
+--- PAGE 43 ---
+|Group By_^ilH  #lavinq
+Group BY
+Tle Groue_By
+claus
+in SQL i8
+used +
+8rup rocos
+shich
+have
+same
+walues ~ the
+men-toned
+attributes.
+S4ntor*
+SELECT
+983
+~inc-tion(22)
+From
+~table_
+namc
+Giroup BY
+C4
+Exemde
+Gict He
+Tolal Sopre
+each player
+the
+database
+select
+namc
+Sum(score) as total _
+score
+From
+player
+matck_
+de-tais
+
+outEut
+G1roup BY
+nome
+Me
+totel
+Score
+Dovi d
+405
+Toseph
+116
+Lokesh
+186
+Notes
+by Bhavana
+rcaate_
+--- PAGE 44 ---
+G1Roup_BY
+bolth LOHERE
+62
+can
+43@
+Kohere
+@louse +
+BHer tho
+data
+beBre
+per_
+993'
+SELECT
+01 ,
+agarega* _
+Ana-tion
+Fron
+~table-name
+LJhEre
+C3
+Group By
+C4
+Exanel
+GjeE +he
+tn
+ber
+cen-turiep scored
+eaah
+player
+SelECT
+namc
+CrUNTC* )
+As
+hale_centurez
+FroM
+match
+detoile
+IOHERE
+Score
+Group By
+utpyt -
+nme
+hol?_centuriez
+Dovid
+Toseph
+Lokesh
+Notes by Bhavana
+Rrmfrd
+reqatfan:
+ynta* =
+(C2
+Kal p
+Hloyer
+2
+name
+--- PAGE 45 ---
+#NVENG
+HAVING alause &
+used +0
+#e
+resultant
+ross a-Aer
+4he applica-Kon o
+alouse .
+SELECT
+C1
+02
+aa3t
+~Runa-tion(c4)
+RON
+~oble _
+name
+Group By
+04
+#AVING
+Cond ;Hon
+Exomel
+Gel
+the
+nme
+and
+nUm
+ber op
+kl
+centerez
+Lcho
+scored
+mor
+Ltan
+0ne
+hac?
+plager &
+SELECT
+ram@
+~bEuF:
+ount(
+aenturieg
+From
+Mame
+bol ?_centuee
+plager_match
+detaily
+Lckech
+Khere
+Qam
+3oro
+77 50
+G1RouP By
+name
+HAVING
+hak centuree
+71;
+Note:- KHERE
+HAVING {
+bhErE
+Used +o
+and
+#iz
+opera tion
+1  per-Rred
+bafre  droupind
+HAVING
+wcd
+~Rher  &ruupa
+ond ~hiz
+Operaton
+perPmed
+ater Arupi?d'
+Notes by Bhavana
+Ruer"
+GRoLl
+gnta* =
+exte_
+centurd -
+half_
+Auter
+rt
+--- PAGE 46 ---
+Ommon
+ConcepE
+4 SQL Expressions
+Kje
+can lnte
+expessbnz
+in vahays
+30L
+alauses
+Exprento
+Comprise oP
+varou?
+data
+types like
+integers_
+Ploats _
+otrinjs
+daletime
+eto.
+Usic;
+Expressiorg
+{0 SELECT
+cbuse
+#Example:-
+Gel
+pro Ptz o
+movies.
+Note
+Consider proAxl 04 difpereot
+beboeen
+Collec +ion
+and
+budjet .
+SELECT
+ramo
+Collec-tion_incr
+buddet_
+in Cr) %
+Pro Rl
+FRoH
+movie
+output;
+name
+prbte
+The
+moti {
+40' 31
+Tgno
+Plion
+67,68
+The Dark niqht
+82.5
+Note .
+be
+use
+"#l
+Opertot
+@on
+alenate
+salHe 3
+Notes by Bhavana
+aan
+striny'
+--- PAGE 47 ---
+Exanple2
+Get
+Lhe
+movic
+nome
+and
+Jen2
+In #he
+~Rurmat
+Mole_name
+SEleCT
+name I|
+qere
+movie_genre
+Froh
+Maui0
+Output ;
+moura
+aenre
+The
+Hatix
+sci-A
+Inception
+Ac-Hon
+The
+Tak knight
+Drama
+Stoc 3
+~AnimaHon
+Expressions In
+KJHERE
+Exampl: Get
+all +he
+moue &
+bith
+piolt
+at leost
+crres
+ZELECT
+Froh
+movie
+LoherE
+collea-Hon_in
+buxaet_in_ cr)
+>7
+60 ;
+eUtut"
+nome
+8e2
+byd8l_Incr  Eellecten_in_cr ohd
+celeate
+Inception
+Arkon
+83.68
+9elb-01-14
+TR dx
+knatt
+AcKon
+18.0
+Ioo 5
+9'0
+2o-07-16
+sby]
+~Aninbfon
+90.0
+1026,7
+8*5
+ado 
+06-2f
+Notes by Bhavana
+Rolloroind
+enre
+Usird
+clayse
+16.0
+7'&
+Toy
+--- PAGE 48 ---
+Expressiong
+UPDATE
+clause
+Sx9mpk
+Scale docon
+Rum
+moule +461e
+rartica
+UPDATE
+SET
+tatid
+raticg/2
+Ssior
+HAVING_clause-
+Example
+al least-
+Get
+te
+&enre}
+uith a
+averge
+Opeg
+SELECT
+denre
+From
+mouie
+GRoup BY
+8enre
+HAUING
+Avg
+edle-Hion_
+ia-Cr
+budgel _ in-0r) >=
+I0 0;
+Outpl
+gene
+AcHion
+Anima ton
+Hyslery
+Notes by Bhavana
+Usi}
+Expre 
+prlt
+J00
+--- PAGE 49 ---
+SQL Functions
+8QL
+Provic2e
+huill
+Rna-tiong' ~ " Peifrm  vartou}
+mand
+Gertiona
+Over data
+that i
+stored
+in tales:
+SQL
+can b2
+dtuidled
+Into
+dielerent
+cartedories
+Such as:
+4) Date
+aast
+Functiory
+)Arithmetic
+Date
+Funa-Hions:
+7Dxle Funotion}
+are
+used
+extracE
+thedate
+Hme
+kom
+aate
+Aeld _
+One
+Aunation
+in date
+Anc
+importont
+te
+sth0 time
+Rincticn
+SE1 PLime(
+StrAtimet) Aina Hion
+usea
+ezhack
+moath,S8'
+@tc
+Prom
+Con datclimq ~Aeld
+based
+speciltc 8i-
+sbirds:
+Syntox :
+SlrPlime ( {rmat _
+Aeid_name
+ExamEle: -
+IEr-Plime
+%Y"'
+relear_cale)
+Variops
+Rmol
+Sote
+ciln
+Qn @xampk
+Pormnal
+Jsrglion
+Eurstioo
+YY
+year
+3ErPhme
+('%y"
+~eld_name
+Tam
+month
+SuPnme
+Im"
+Pretd_nave)
+od
+{PAme
+Yad" _
+chield-name
+YH
+dox
+stecme
+(~(Notegba Blyavana
+Bino-
+tione
+Rnctt
+~una-
+Kony
+tlorz
+Koe
+Lour _
+yer ,
+Sule
+Runctioq
+--- PAGE 50 ---
+~Htow +0
+use
+gteymey
+1, Ckase -Ue -Rrmat &8 Ihe culetme
+{hat dou Usont, suoh
+a&
+Ite year
+4he melh
+Ihe
+etc
+Wrte the-Runalio
+using
+st-Ptme(-Carmat_
+Reid _name) i
+SL
+Nole
+quertd
+dole and Hme
+In  #he
+stird
+Bmrct .
+StPtinet1 @xhacla
+Exenele
+Gpt
+the
+mouz
+Ulte_and
+ear -r every
+mouie
+lom +he
+dalabape
+SEECT
+name
+stAkme
+YoY
+relene date )
+Froh
+Mouie
+e4le46*-
+name
+strPame_
+#Y
+Jeare
+date
+~The
+Hatix
+1999
+oio
+Incep-ton
+Y7he dart
+003
+knight
+Notes by Bhavana
+4ed-
+--- PAGE 51 ---
+CAST_Eunc tion
+In dalabase
+management
+~ystems,
+42CAST
+~Runo Hon
+wod
+conuert
+Lalue
+Pem
+One
+data
+tdre
+anotter data tdpe
+Eatx
+CAST
+value
+dala
+Exanple
+cAST( str-Ptime
+YY
+release_date) A3
+intege))
+7the
+SAT
+take
+Valye
+7he
+value -hat
+esant
+to Convert Iato
+spec kc
+&"
+type:
+0Dl
+tyee:-7he
+Sata
+type
+t0 chiah
+Lant
+Canveit
+the
+value
+Exanple?
+Flnd
+how many
+movies
+OjCn
+released
+aaah
+mont
+op
+He
+9pl0.
+Jear
+SELECT
+strPtime( "4m
+releas_date )
+AS
+manth_
+Qount ( ") As #atal_ moues
+FRo
+mouie
+KOHERE
+cAST ( sl r Ptime ( `Ay
+rlax
+dat @
+AS
+jotge))
+=20i0
+Geup BY
+month
+Notes by Bhavana
+~&re)
+Puna+ion
+alata
+--- PAGE 52 ---
+Aicthme tic_Eunc-tiens _
+4 Airthme-Hc
+Func Lionz
+in SQL are used
+perRbmm
+malle_
+used
+numerta values:
+Some
+Com
+monld
+ma-Haal operaHion
+arilhmeko
+aro
+ELooR
+CEIL' Round
+FLOOR_Enc lon
+to the
+nearest
+7e
+FLpor
+Runc Lon
+rounds
+number
+boloo ilz
+curent
+Value
+Santax: -
+FLoorC numbe?)
+Exonple:-
+SELECT FLRR ( 2,3);
+24t45 *
+Floor
+EIL
+Funa-Hon
+The
+CEIL
+Punation
+rounds
+number
+to 4Fe
+nearest
+above
+its
+cunen
+lalue
+syptax 
+@EIL (numbop)
+Ezample
+SELECT
+cEIL(-2,7)
+OYLLt :
+LETL
+~2
+Notes
+by Bhavana
+~Runo#o
+{n"dr ,
+inleqe r
+--- PAGE 53 ---
+ROUnd
+Euncto2
+The
+CQUND
+Ho
+rounds
+number
+spec ke d
+Qumti
+dodima
+plaaes-
+Sxtox
+Rounp (number_
+decimal
+places
+Example
+SELECT
+rounp (2,45
+2);
+SELECT
+rouno (2.345, 4);
+Qutpug : =
+ROOnd
+2,35
+9,
+Eunc-tiens
+SLing
+Puna-tiort
+S0L
+are
+used -to
+mani plate
+ard
+Operat €
+values
+charaater data
+S@L
+Aun-tion
+Behaulaur
+UppER()
+canveits &
+to Upper
+cse
+Loier(
+Convett&
+Example: -
+Oykp; -
+SELECT
+nane
+nam
+engor
+Ae & ulton
+Fror
+mouie
+Avergere
+Endgame
+Khere
+UPPER (name) LIKE UPPER (
+#avergers
+J " ) ;
+Usually
+UPPER()
+AND
+xeareaf? tM-Biavehae
+Rm
+case -
+Inren sitive
+nes
+Puna
+stind
+stind
+sticd
+Icxicas
+stng
+Nete 
+--- PAGE 54 ---
+SQL_SeE Opzra Liens
+The
+ScL
+Set Operation %
+used
+conbine
+the
+SQL
+queres;
+Let uz
+unders tard
+Common
+3@E
+oporataas by   perfrmina?
+opera [ions
+Hmo
+s@Es.
+ast
+skerlock #olmes
+mouie
+ca3l
+Avnd?rt Erddme" movie
+Robt DTr
+Qebet DTr
+Lan
+chris Evns
+mr stnnq
+mar
+RuAllo
+Shoxlock Holmcs
+'ommon
+Set_@per-torz
+INTERSEQT
+6
+~Actora
+Lho acted
+bolh
+she rlock Humeg
+9
+and
+Ne
+End qame.
+rgers
+Result - Qobetl
+DTr.
+MINUS
+"Aator
+Loho aaled
+in  Sherbcr
+and
+ml
+JJu bws
+#vongeea
+Endgome .
+Mar
+3+v
+Pext
+Tude
+Hart
+Sbong
+Notes
+by Bhavana
+4o
+more
+Tit
+Endoom €
+~Avengere
+Hlme}
+Latu ,
+--- PAGE 55 ---
+UNION
+atord
+uho acted
+sharloak
++todmez
+Enddane
+bute bxto
+Chrg
+Baet
+Etany
+Result
+Tude Law, Mart
+Pobert D Jr ,
+maik
+pJ =
+mark
+3t10ro
+Rufa)
+Ohhs
+Evos;
+Mark
+Qu-PQalo:
+UNION ALL
+Doesn€
+eliminate
+clupicate
+reult
+Qatot DJr_
+0fr
+jude
+Lom
+Hark
+stmong
+Qober+
+~ule laj
+Cki
+Ex
+Hbr 303A
+mait @flb
+DTr
+Qobt
+D Tr , chris
+Evans_
+kbrk Ruffalo
+Apelyira-
+Sel
+Opera tions
+hJe
+Qan
+apply ~hese
+set Opera-Hons
+#he
+tso
+Mart
+8vt
+Qenes
+t0
+Combin
+their results.
+Syntox
+SELECT
+04, 49
+FROM
+~able _
+name
+SET
+OPErATOR
+SELECT
+24,@2
+FRON
+table
+nare
+2;
+Basic
+rules UShen
+two Sqr
+queries
+se
+pera-tors:
+Notes by Bhavana
+Unique
+tengert
+Strord '
+Rabt
+Qesult :
+combinind
+usinzy
+--- PAGE 56 ---
+Eqch
+BELECT
+Statement
+nust
+have -Ke
+same
+number
+aolumns_
+AThe
+columns
+must
+kave' similar Zata typez
+must
+be i2
+Ate
+7e aolumg
+SELECT slalement
+Sumc
+order.
+Examele
+Gee
+ids 00
+cho
+acted
+bth
+sherloch
+Cid = I5) ?
+Ho Imesi Cid =6) and
+Avengerd
+Endaame
+SeleCT
+aalor_id'
+From
+205
+LhErE
+movie_
+id = 6
+INTERSECT
+SELECT
+aol or _ id
+FROH
+Eas
+KHERE
+mavie
+id = (5
+OuLput
+aatr_id
+Notes by Bhavana
+aac
+a tpr
+--- PAGE 57 ---
+OrdeR By
+clause
+ia Sel Opm-tons
+OrdEr By @lause
+aan appear
+only oce ak tle end of the
+mullple SELeCT
+statements _
+iohile
+Sat Oporators; individual 8ELEOT gtatenents connct
+usfrd
+cah be dane based
+have
+Order By
+alause
+~Addi-tonald , Srtini
+on tte
+Colomns
+tat
+appe ar
+#c'~Aeh
+SELECT qucd
+Ahis
+reason
+1 recommended
+SorE this
+kiod o8
+quereg
+Usin9
+@olumn
+Gons_
+Exrampe ; -
+Ids 00 actorz
+eoho
+aated 'in _sherlock
+Yet
+dielimt
+Sot
+ids
+In the
+#othee (id =6) or
+Aenaerc
+Endaame (id - is) -
+Order.
+SELECT
+actor_id
+FRoM
+cast
+IO#ERE
+e_id
+UNION
+SELECT
+actor_ id
+FROH
+Gost
+#OHERE
+mouie_id
+ORDER By
+DESE
+Notes by Bhavana
+qued
+cantatatod
+For
+past
+deaondiod
+movi
+215
+--- PAGE 58 ---
+Paglation_
+in_Set Opentions
+Similar +
+ORDER BY
+alause , LTMIT
+and
+oFFSET
+alause}
+are used aE
+~he
+end &
+U2
+o0 queries
+Exdmpl
+Aret
+Idg oP actorz who acted
+sherlck
+Giel ~Lhe
+80
+(id-15). Sot #4
+Htolmee (id =6) or Arengera   Enddame
+the  dqcendina
+oror-
+SELECT
+aator_id
+FRor
+aast
+here
+movie_id = 6
+UNION
+selECT
+aabor_id
+2a5t
+KhErE
+mouie
+ORDER By
+DESE
+LIHIT
+Notes by Bhavana
+List
+Froh
+--- PAGE 59 ---
+Dalabases
+Dalabases:
+Sgrc Conceets_inER_MndL
+Epkit
+3 Paal
+ulddchjectkcencepksan_called erdilies
+ER
+Molel
+Ex= Tok_Emma  =
+Sm2
+Lil
+Autbuks _P
+Enkt
+Ampectes_al_maL_karld_ohjecksk caaazets
+0m
+reptesened_at_arcitulesoL aaentitt
+inER
+Holel
+Ez €-name: Iabn
+Dldtn @'
+Enma
+92;
+ngeL
+25
+kett Attribute:
+4L
+7 e
+oHbde_#aL
+uniquel
+idecl 
+Bea_each
+Salled
+Lotibule
+DLAL
+Ex=
+Oadbac_nauxxt
+#"Aadkabma'AXX
+L_
+nqe
+LLiS
+ames Enma
+hplonale
+Lcho
+Eit
+722=
+La
+~Ert+
+Lenbllet eHare
+He
+fime
+4H
+ULacahaiaueg
+LnaE_yalue
+tulld
+Notes by Bhavana
+Hodeliaq 
+Modaliad
+AAPple
+Lolik
+Lai
+--- PAGE 60 ---
+EX +
+2
+padbachlixxrx
+odnLUXXX
+namexTobh-
+Ji_lnac ei'Ecnmo
+po@l
+25
+peron
+Oltieashiestl
+znkikLiaLhie
+LLL
+Aesetiakeq
+suoolatiaolamana : te
+Soled
+mk tooshie_
+Exantk
+Li
+ha?
+passpodt
+Gul
+"'Penaduoan kaxetmanj cars l
+LayEnakkatixlanl;oan_teqtler Arimaot
+Asures + oal
+ceumie
+Ioini
+hate
+mlOo
+L
+shkalLiihiL4il
+Lipes_AP
+Rek Lionskitpek
+One
+t_ane
+Pela Liaaship -
+AilLill
+bi
+uc
+ZAnenlthy
+rated ciealihone
+Lonvice
+Ezamtkl Z~A{Orson
+con
+Lavetdtune
+pacrfod
+LMDL
+L Sailarttalpaspod_Lelaoa cto
+One
+Jdpanc
+Ooe_baHany
+Pelatioship
+~AnL
+en-td-Ae_bbted
+c
+mary otiec enlites
+El
+Lic
+ELS
+LA feqn
+200
+Laxe _
+mADL
+eecilaLA
+Lelooqs
+Ceo
+LeL
+0an
+Notes by Bhavana
+enlikee
+partoo
+e04d
+HOFL
+AloD
+FRadd
+--- PAGE 61 ---
+Maat_tnator
+Ekkoskp
+HuLkple_ebtiliesan_nhked
+mulliele_eoliltes _
+E
+Eli
+EEach Shelebk_
+Ean
+LEeqidtezth mullial
+LULR~
+Slailady
+eaok_coune
+itakenubt
+Lmuttiple
+sect
+Llil
+Adinaltt
+Patio
+LLL
+Caninadl
+DBHS
+dekaeA Akelmaximunl
+oucber
+~ines
+ioslonce _
+fbak
+Dal
+mlle_
+eotit
+jaxtn=
+anothecipn#it
+Lu
+ppeatneasel LL)
+Ll
+Koceu_td =Hantt { LLaj
+e !i
+CardinalLL Palib
+LnLene LL)
+LLL
+LALL
+Layoc
+Lin_Hond (mun)
+ALLL
+Ud
+Ouci
+Al
+Applatiad
+ERHadeL_Ceaceps:
+LL
+L
+LLI
+Liubi_ik
+LelA_bud
+ER_maleL_r
+caal_kdd Stsia
+chac
+Lo
+Ghed
+ul
+H
+E CommereLAppliaa-ionuae
+Ll
+LL
+J.
+LiibLAALLi:
+Ina-ttpical
+Cemmere dpplica tianyL
+Ouehuarsbasuoaly_onalicaneleA-cadu kelatdt tooh
+6oA
+2ucbrer
+Lukmi
+aahtauL-pretuek_brarbn
+ALand
+cpotairt Inlltiple_plunLsul
+LQudtmancan"
+fovoamul-Lpletaddmttee ' %n "ke
+Hoo
+Euthez
+Lke_nleclionLckheu addn
+Notes
+by Bhavana
+LEAnAl
+LbA
+Klet
+Mu
+LALL
+~Pppkicz_
+44 
+--- PAGE 62 ---
+LekA_aprl -lle_aoncopta_d
+ER_HokLn _
+4
+me
+Ecepatin
+Lil_
+Enltd-tpes
+Custaor
+piducE_
+Cac
+Addess
+Rela-tioaships
+Adnnl
+Relatian_RetneenkracE_dad_Cuetcc L
+Sus-tc
+baa
+24
+202
+Lad
+eoni_relted_Auleok: eneLZuetoner
+Henee  tle_arektioo
+bekcen
+auctner
+anL
+ead
+Ooe
+Doe
+Ilioo
+LaA`
+2L
+H
+teua
+Rab-tion_Eekieen Cark_and_PrdcE
+"obn
+Lu
+4
+Acataan_bane
+mardprducks
+ptducl
+Son_Le -lio maayhcacL
+Llerm -He
+mhtian
+be-hYeeo
+ed
+0oa
+ptluel
+Rela ttonltitLE"
+Ja
+#L
+4Palaln_BeheeneLlshed
+apd
+Mddeer_
+A4ttnorchanLhave_tndultiele
+dddse L
+addru-Aamlaled #Leoke
+@Lcustn22
+#ence _ttaitela-icalae-kcea cutolec_And _taddres
+",eoeetoatari
+Jel
+Notes by Bhavana
+@-Ema
+antidiee
+LL
+Eet
+I_4e%8
+Hioa
+--- PAGE 63 ---
+Ahibdes:
+L
+4ntaAlkikbLAxHa
+enlett tPrs
+#A
+Lcodadd_
+#R
+Ltlbtes_Itelid_ParakaiLetahSm
+Ley
+2kiudel 4
+Liiquely_
+#Aenkdsdaeltd
+enlikl
+Mealua
+Fnun
+Cuelrl
+adles_
+JCad
+eaki
+DOld
+price
+bin_ade 
+Aobalplioe
+DLe
+Domo
+dbac_bo
+bcond
+eLLlia
+"Ocr
+aateod2 eAILALLL
+E2 _ Hodel
+pLe_cammece_applich lida
+atoma
+ctt
+Zil4
+m .
+addnes4
+product
+S
+EeLEudelutn_Rela lioddL-D Ebare
+EnRlTp to
+abe_
+Exb
+AHibuelea
+Lelm )
+Aul4e
+Notes by Bhavana
+Aaaidiamere
+A
+Le
+Eell_
+Aarch
+Sal
+Jac
+Lablet
+7
+Let
+21pimat
+--- PAGE 64 ---
+AmisimaL seL_b:_atntdes =
+polumoal
+#ak_Loiqueky
+Heolfet
+mq_iaatabl
+EIndhe
+Blkaloq_tabbs ,alL Ho_idyon
+Jer
+4
+#&
+Loiqudi
+idea ##t
+eaak_ta &o_Ek
+siaatteL
+namo
+tcuchmer
+name
+932
+Aqe
+custom?r
+pin_cede
+dar_no
+address
+Einckdo_
+addss
+honte
+~lol
+Zat
+telal_pice
+price
+dalroz
+Lod
+Ierdust
+tme | ptiae [braadetoe
+20l2
+Predueh
+Notes by Bhavana
+fiotkd
+kenL_
+ptiael
+Lrt
+--- PAGE 65 ---
+Rala-licadips
+Uaeu
+#RelatbadypBekseen_slslemec_and
+Adn
+Dnn = tetan
+Rzk"hoakia_L1iili
+fibi 
+L_
+Leuckek_Lan_han_
+mulliple_adrecc
+ElAnadouuiunbtel_stpaluLcad cuatamer
+MLlic Cu
+LALL
+Aeci
+kle_
+LheHe
+Suetmec_jode
+adlessLble :L
+Ziith kat _dbanadlabnec_an
+nkated
+~porlcultieutotey
+LL
+MLi
+IEX
+nCU
+Leluconk#n
+~able_
+#ol
+tkec
+au
+Ee_btinnnkeLcbakolec takle
+iAkcalled_EretettY
+Lk
+pin code
+door_no
+Eustmec_id_
+addres
+uniete Ek
+HaE
+skr_
+#c
+suchetnes
+id CAtimadt Hd
+culmers
+Rebxen Cart_and_Cucbmer#-phe
+hale
+7 Peklion
+Pela Hontkp Liln
+AL
+ML
+LL
+LelLLL
+La
+Au
+F4t in
+LLl
+Azuetamer_huukooltt_ce_cactAiti
+Epac_Euttnmec
+Alaach_AAurelaled
+Leb-konthip_Eul_be
+Simihr bn
+bpooaibanqanauE
+Auriekd -ha
+pe2d
+Hab
+pol
+0ne
+eutkmoe
+Notes by Bhavana
+4A
+~Rceion
+44o
+LLLL" <
+enho
+--- PAGE 66 ---
+SKDI
+1d
+tnbl_pree
+cuelomec_id
+2at
+=Reb-tion
+Bc Leen Cattlaod_
+-pradcks =
+Pal konskip_
+A
+Azartacan_bawe_mantt-prduchs
+Apiduck
+apA
+beio
+Doanu
+cadi
+L
+Hece_WeicannaE_sebce_@ikertepamank
+pteaducE_io te
+eat_tble
+Aice_Mr
+L
+LLL
+~A
+zTnshc_eHe_tela lioathip lbe-kaeen_de
+ZatLan_put
+stobleg _ee
+Lye
+Tuctioo
+Draiala
+ratid
+prdad
+name
+Lut
+Teny
+Sot
+Mbi?
+41A7
+Sar_pndct
+Prduch
+Ekh cat:
+Eklt_pidcE i
+AelesLutut
+Liai Anl
+lle
+stre =ko_prper tiet_relatedelti&l
+mahl
+melo linchip
+Io_#e_puation_-oble
+Foc
+io
+mant
+Lkeah_phdE
+in__Heuzark_shuld
+ainLbe" Tunctan
+LableaaE'_ptduce=
+JOL
+ALLLelLu
+L
+LL
+Notes by Bhavana
+~Hary
+Yadt
+ketae
+Aultitt _
+--- PAGE 67 ---
+3Cammere_
+Lecale_
+E2
+HodeL an
+Qek kacal
+Dehlate_
+Fellacsioa
+ER_HateL k
+LpeAenked_assla_Beloch daLle
+n#e
+Lekalianl_aatabule Ai"
+Fp
+HotL
+Elltaer
+ho4
+2at
+LL
+E
+LAd
+LL
+Addes4
+Dnduat
+LtioraL Dxkahre
+MLLLE
+Ari
+3L
+4e
+4u
+LLuiili
+L _
+Jla
+Dome
+idle ek
+dleh
+eurid
+fuemerLtL t
+addca4
+LhHLAL
+LehLuekuha i
+mae
+Eice
+erd
+Akp
+Alk
+La3114
+LiLLLEJ
+aucat
+#Ab
+pedual
+sokid
+eroutyidaknlilyy
+bladok PEbHaA -6 EAd-paduALAAAL
+LL
+AlukLS
+Wi
+AL
+Ipal
+LD
+Ld
+L
+ll 4
+Ii
+Notes by Bhavana
+Ll
+alanl
+--- PAGE 68 ---
+Ix-linc
+QelationaL_Talbase
+Ptinad _ket
+Fallotoing
+crealea_Atable_uiitl
+Ll
+44 
+ptimane
+key
+L
+Lfd
+CREATE_TABLEAlle
+nam2
+94
+ElorAULL PETLARY
+KEY
+en+4
+Foreion
+Safe_2P
+ket--ne_jusherate
+key_Leaskiinb
+Lotk
+LLif
+Suta
+Santax
+CBEATETABLE
+Aake2(
+c1+
+Not
+Nul
+ERTHAR AKEY
+Lu
+il
+Sulee_b
+Lairilk
+FARETGLKEYSA) REEERENCEStallef
+OMDELETE
+CASCAQE
+~L
+FORETAN KEL(s)) LEEERENCES_tabeilcg)
+ALve
+p2'#e
+keycentttalnt_enure
+Peeiqa
+Lab
+pnlt coutato
+Haluex#tt
+an
+Notes by Bhavana
+Ayn-nx F
+LIL
+ket
+Boreiqn
+Paceiqn
+Uerttntdicd
+Paolqn
+pack
+--- PAGE 69 ---
+#e
+Berenced_Rtimard
+kell
+LLILL
+OLL
+DELATE_
+@AScADELAA
+LiLL
+Mt
+A
+LouIAi
+EnumeLaL
+#alhini tubla Ldeloted_thenall
+related
+mrlia  table LuLuilLaka Le
+deleted
+L~LLLAV
+Li
+Ndte
+keurcanskinkio_solite
+Dseh-peacua Breni et
+LNLEY_de Buult_
+Zoabled aiadc_plLBacbi
+AGnt
+IL
+Tblee
+Rela Lianal-patbace
+customec_TableL_
+#bilL
+MLLALLLKLILL.LLLi
+JLCREATEITAELELAuatmeL
+idAIESERANALIlLLPeEMARYkEY
+LLi
+(LinamebMARcHARG2sdl = :
+KALA
+AaaeHTNL
+Liuck ;
+31A1
+Leliu
+praduc+_Table_
+IL:
+Mc#uuii
+KCREAIETABLEPtlioEGu
+INESERIALHiLLURETHARX kEY
+nama'
+MARLHAR
+(usaleuan
+price
+IHEHL
+UEAHGhI
+LL
+2a151 LEbnd EuAee#AAnli4
+aalansiliA RcHARCLSD
+salad Lhid
+Ja
+46i
+Mmr;
+LLA
+TXA
+Anintb
+Notes by Bhavana
+aballe_Boaida
+Creotind
+L
+--- PAGE 70 ---
+AddssTable_
+CREATETARLE_Adtessk
+IdINTEGER
+NIL_NULL
+PEIHARY
+KEY
+Jl
+pin_Cade_
+DESER
+Ll
+Loc_po
+LNARcHAR(s52)
+Attd
+JAL HAe(os
+cuslomec
+INIEAER
+FoRetskey(custmerJid) EEEERENCES
+CuctnerLidLDELDELETECAScADE
+Cak_Table
+CBEATE
+TARLE_ZaLL
+TMTEAER
+NL NLL
+PRIHAE-YKEY
+cuctamediid
+INTESERLNLMLL_
+tobLpriceLINTECERLA
+FoRETELKEN (~uatmec_iO RECEEENCEC
+cyctmerdidl
+DMDELETECASCADE
+Car_pnduck Table ( Tunc-Hoa_table
+LaL
+@REATETABLE
+catk_produce=
+idINIEGER-nIOLALL L PERHABY
+kEx
+LLLaanlaid
+INESERLLL
+prduaELId
+FATEBERYLLL
+Auantitt
+INIEAER
+FoRERELkEY (card_id) BEEE RELKES_cattid)
+DHDELETEL
+@AScADEL
+FOREtONKEYLacuct_id ) REEERENCEI
+prdintudLON_DELETE
+CASCADE
+Notes by Bhavana
+--- PAGE 71 ---
+Tins
+Lbinsz
+Li_
+So_baiuke hali leark:
+nnaltse stheldth_taE
+piesenE
+inA
+sbleubuk-intte_maELhlodl
+Scenatins
+cecot
+Linghe
+cb
+Lda bihtel_
+i_mulliple
+sahexTa
+BLh
+meaninge_incighti/Ae
+hake_tbrio=
+Hedaba
+by
+Leakaiag
+42
+sobles_
+LleLbe_TATAhlaliseket"Zombiaq
+me
+Bon
+~ua_
+PC_mapce ~tableg Kbared_On
+mlated
+Aeumn
+bekacen
+Hem_Tbec 
+Matious
+Atfet_n? jaintunambly
+Lal
+rL jain
+GGonc -
+Tin 4
+TeiaLOmA
+joln,Lelt"Jia 
+Rtakt_Joinii
+Lekxleatn
+abaut_#em In delail
+Ebe
+~obbuleLa
+L ;
+Aa
+uicdith
+la
+3k
+AE C
+L
+Database*LAi
+Bati''
+Ca
+ML
+Lia
+IL
+Hec_Aedatkase_
+#eAak_aAeuudente
+ADle
+ruels 
+lottnctrxeliealan
+patemm
+Ua
+Ii
+X
+L
+hinhrrbr
+mteany
+Soure
+has
+weel
+LL_
+Hl
+Ebadm
+LuL;
+entu
+J U
+Liun- Sndent
+Re&r-e_Lablet_in_#e
+cle
+playatund
+gr
+beter
+~nderitandind
+22
+He
+safke
+Notes by Bhavana
+pe tber_
+A4L
+~elkn
+seq
+LfALD
+e-leatia ?
+--- PAGE 72 ---
+Nalunl
+HATURAL TATM_ZambiestheLstablet_baled
+Dttenta
+#e
+Lommoniaelamngi
+Ll
+AE
+Udu
+L
+Li1
+Syobrs
+LLLLLL
+Seleu
+[ELECI
+ERoLtnble
+NATUEAtLTDTN_Labb) + L
+LLkL
+SeLl
+LLl
+Gaentno
+LeaL
+Ga
+Erompe 
+4+
+1
+Feth tbe_detaisa2
+ceursesJhakare
+belad
+Alex 
+Li
+llLl
+LAAL
+Saluibo
+ti
+invlues
+quertiaduantdab
+Stad
+soblest
+Ley-2ore
+ittc
+LtczBoth
+Lbe 
+Lablex
+Boxe
+Domarann calumb
+ittarcbclid IHence
+Le
+L@
+AatumL min
+LLLA
+LLiL
+LSELEALaaunetname
+Lnttrucbc_ &Lname _elbel+
+EeoL
+aucte
+NAnueAntNi tnhuttar
+LtERE Iarrtna-toci BL
+name
+"Alex
+e4tEEL
+name
+BiL_hane
+Alex
+Seeutitd
+Lli
+L~LLLL
+d
+M
+Notes by Bhavana
+Talo
+4
+Sl
+Jable
+L
+Lil
+LadL
+4a
+peblem
+LLL
+Sylef
+--- PAGE 73 ---
+TNNER _
+TINZ
+sh_
+THERTOLL
+Lanahlhes "ruleBum"balhtthectaLles
+11
+LmeehakrpcaieedkcaadEtan LLAl
+LinuL
+LLL
+LALlL
+MllAL
+Cn|
+SELECT
+FRoL_Aablef 
+INER MTNtnblez _
+OL
+Ebe Leditable 49
+JbLifi
+Llate:ahe
+Eaanlltitelnnd Latipatisno
+Opertr_lo
+Auen
+Hiion !
+L
+Laldta
+Extamplet 
+BLon
+LGeL_Ha_tevarol
+paLLLie
+Lcyher_Seouik
+alte_uith_ialE)
+~ELEdLLetudebe_ Al Lhaine
+revieul leon teol1t
+Uua" ,
+JnreuieuilamaldLal_
+I
+ERobk_shudenkaLcub
+L
+6 4
+TNNERLIATA
+[euieul'
+OL
+ckdenLiid =
+mueuLuchdeot_
+LEERE
+Gouebidndlnge
+14 =
+eutpue"
+Lt4
+BuL
+3.dimle
+odent
+cedled_at_
+4a4
+YooLex-planaLloa
+a42Lwlal
+Ajat
+Nrl
+ALaaLo
+QaakJO
+Notes by Bhavana
+Het
+suntx
+45:
+ck
+--- PAGE 74 ---
+LEBT TOTA
+En ILEEC TOTALLBc_eachLt ia te leELtnble_atla]
+LPOA
+Bantbe_tiahb_table_are_Cembiaed: RA_there
+mothAuLLLitaluea
+ALE
+asigoed_tn_the_righhale
+22
+4he
+Lene
+Le
+#empom
+Lablet
+Synbrt
+7L
+La
+KELESL_UU
+ERoLLtnble
+ALERL TaAtable_
+oLttablel
+Ehleetaeei
+Exandlet
+@eLch_#be
+BL_name_dstdenL L
+Labo
+02
+baxe
+not
+enLxolled
+B5
+Dlolu
+rautesla
+EL
+~SELERIstdenb_ AuL_name
+Feadlcstudenk _ =
+LEPC TOTN
+sHudent
+Ceuroe
+OI
+ckudenHid tickdent_
+Surearkdeot
+LoheRE
+skdmbudte_Ld
+TS
+NWL
+Le
+Llkul
+Ie
+eutpub
+Alli_
+EL
+name
+A8io
+TeluelLaeL
+AL
+Lile
+Notes by Bhavana
+--- PAGE 75 ---
+Toine
+MuLLiple_Tables 
+Lle
+can_alsa_perBrmnjoin
+Lnin
+Tudmo
+bioed
+Loble_
+Ezerele
+Fekah_aIL#ej
+Shredts
+esha_enalled
+Box_LLe
+peulsel
+~ouckk_
+te_tottchc
+Snun
+ULol
+Dnceaat
+L
+A=
+SELELL ILhane_AiLcolLesame 
+studenLL!L
+0aino
+Ulet
+LiL
+EPoL
+CLrae
+LLa
+Lil
+ILEAnIALsLudeok _
+cxlBe
+DALuchuese
+Lil
+studenk_cause acauddlidAs
+LNNER_JALN-_etudeaE
+Od
+IatudeblfL
+shudepbiid
+AklHERExecune it ta tur_ld7W05  4
+Lilan
+AD
+LLLn'
+o4L
+SLi'
+Laumo
+name
+Bul_mme
+Lii
+maakine_Laamica
+Jatua
+MC
+AHlaahie Ldarrciae
+_andaLs
+L
+Lals;
+LLL
+Lill
+Aate:AuLLLiLioi;
+_
+SeLlares j
+BesL_plclicet
+n -
+LiA
+Ehla
+L
+Mce
+ALIAS
+5
+name_HeL_Eaabiaed_teble
+Lias
+I
+LaelaliaL :Labla
+namel
+LLe Eer_He
+mn
+4BA
+canbioed
+tohleHuL
+LLI
+MaE
+Li
+LLA
+Jhet
+V4
+Y
+Notes by Bhavana
+pAl
+--- PAGE 76 ---
+ksiag-Tolas_Lith
+oller_@lausa
+LLZ
+QQ0
+LHERE
+QrpERRYHAVTNGL
+S80R
+BLLLILIC
+andt
+Dlber
+claush (cahiah
+p
+used
+Br
+cetieuin
+dalnobleaX
+LeLE
+Example
+EoLe_name
+Ee
+SLudenE_LuhaShhoned
+hidlesk_in
+Hachioe
+Laune
+SELELI_ShudenE
+LiL_name
+ERoy ( Coude
+INNEE_TTNL
+ShldenEcouuie
+OLLLCAuue
+shudenE
+COMLE
+L48
+TNNER
+IIA_ahdenE
+DATshident id = stdenbxid 
+IKHERE
+CauLSe_aame 7
+LHachire_Learning
+QRQEL_BY_ShdenEacauretscare
+DESO
+IHIT 1
+4
+Ueigg
+joias
+4tb adreqo-tions
+koe_
+CfA
+ApcU)ufedEiBnatcalteschaa
+Sul
+449
+LIMand_ottec
+t
+per&xm
+aaleulations
+Lbe
+Jem
+joiaed
+4elleaL
+enelL
+ponrt
+Exampet-GeE_Lhe_hihesE_score in
+eaahcLue
+BELECL
+coude_Ldame_AS
+@DursA=name
+AAxlanceD
+41
+bdtet
+Scoce
+EROL
+pauLfe
+LEELOTN
+Studleak
+#odco
+ELLaurse
+idas Epent _
+Coumotanca
+Girap By
+Course
+Notes
+by Bhavana
+Leacoicd
+Pau4erd
+ceuntt
+--- PAGE 77 ---
+RteHTOTAL
+EtELLATALALRIAHI_QUTER SIOTALis_vice_Mero
+LEELorLier laRre#r TOTAL_~&reach
+#be
+LiohL Lable
+mkchel
+EDLAI
+Buox_Lbe
+Loble
+Ae
+amabiced
+Ie -lhere iA
+malch_NULL
+akea
+acciqnedkAe
+lePE_baL e
+el_taIus 
+He_kempon
+LL
+LlAL
+Sanbr
+SELET
+EeoHAable1
+ereHLJTM
+Lable2
+DL
+LebleLad
+Jablea
+094
+Exampe :
+~pecBtma
+RTAHAL_TATLL
+LCADe
+DodL
+foltuuctar_-tablest
+SELEAI
+cauDeLname
+ins-tatrL lL
+nate
+EeoL
+Ceure
+sk
+ETEHLTTAL_instuchba
+OM_eouEe
+iqtcbc_id=inthuc-briintcbr_id
+Ndte  
+RIGLT
+Jlh
+DaE
+nuepded
+Sam
+DBLs € SaLite )
+Notes by Bhavana
+O
+Je Pe
+pLL
+Yabe ~
+--- PAGE 78 ---
+3
+TATA
+E_MATALLDL
+ELL
+OIER
+TINis
+Ee_
+LefuE
+boLh: RTELL_JIALaad
+LEEL MIN
+Snbr =
+SELECLA
+EPoH
+Lable
+ELLADIAL
+_hex
+OL_tbleLial
+~oble210
+CaL
+Ezomde
+perim 474 P
+FoLjalo
+OM_
+Onun
+Aoodi
+Rortuottol
+JELECT
+LnurseLname
+LattuctLa fulLAndme
+EROL
+Cauaie
+a
+PuL
+DLALintntt
+ONLcoucse_int tatr_id n RatucbrLint tc brid
+Alele
+Mlaa
+EuLL_TTNS_ia_naE_suppctedL_ia
+Some_dbms
+soLite)
+Ahid
+Notes by Bhavana
+--- PAGE 79 ---
+^p0SS
+QTLL
+LEo_cRosa
+DMLLeach 
+EnmHheBaE-table
+Lambiael_Lotlh_alL
+muL9
+ioLbe
+sead
+JalleL
+ALama9
+jio
+E_also
+Called
+4_CAETESTANITAL
+Saebar
+LL
+SELECIIC
+LLL
+Mi
+EROLtnble 45
+@pacc_OLLL
+Lable 9
+54
+Eanele:
+Ppecben
+CPDELIATL
+encalne_acLinthch
+SELEELAcauuenname
+AS
+Caucaoename
+iosatr LglL
+~dame
+A~inchuatc_nane
+EeoY
+CotrAe
+@RASL
+OLAL Liqptuo tor;
+LLi
+S
+ML
+O4eL
+EiL
+MICLAAL
+LuEAALname
+Lngchuo-tar_name
+aL:
+Hacklae_Leoting
+LiiAlex -
+Haahloe_Leatning
+Eyles_Securttt
+Alex-AI
+JS
+O et"
+LL
+Notes by Bhavana
+LDLLE
+L
+--- PAGE 80 ---
+SELE
+JIN
+Lne
+can cambiae_Atable_tith_iLsell_Ikis kiad
+ee jaio_#
+Lalled_SELE JOTAL
+Antex:
+SeLECT
+ILel_
+44n2
+ERoLobles
+AsE
+TTAL
+tabler4L L2 +
+oNLLLcd: Aan; ALL
+Nete
+Aaalnan
+LaE
+IIAelaluein
+Ei
+Exemdel_821
+shdene
+~pnica__cohacreqisterd
+LemmoniCode 
+Laa
+SELECT_ScA studeaL_idk_shideat_id4 ,
+P4O
+uhdeol_id
+[bdeot_idztScLican
+EBoH
+shudenE
+Couce
+9o1
+ENLER_TTA_sturleat_Lquae
+OLL
+sededue_idarSL Callbe
+id
+LJLLERE_
+LAl
+_tudeal id_Xsexsbuet_i4;
+O4tELSZ
+shiec_idL
+Shdent_id
+LoJnet
+Notes by Bhavana
+sele
+--- PAGE 81 ---
+TOTNS_
+Summad
+LSe
+@ase_
+NaturL
+Lased
+Ean
+LOLLLLAL
+EoboaL
+Lnpe
+joiol
+LaseL
+Aivea_coadilion_
+Lepe
+ALs
+Raa lefttable
+and
+mtched
+Henun (
+Bmm_tiaht_able_
+Qatt
+ALtls
+Pan_tiohL abb_ad_saekkd
+EuS
+~em leee Yable
+FulZoin
+AlLrocy
+&nm
+bthdte
+ZmsLJpin
+ALL_pstibk
+Canbimlions_
+Notes by Bhavana
+Joins
+ph
+joiq}
+Join
+~Fhin
+pio
+SaHet
+--- PAGE 82 ---
+and Subqueres
+Jieeos
+Vielo
+4on
+considored
+name +o
+a SQLQueA
+simpld
+crate
+Viees
+TTo create
+view in the database, use le CREATE
+VIERJ
+Slalemert .
+Example
+Cratle
+user_bag
+detolz
+viet
+{d,
+name ,
+ade_
+and
+pindod@
+CrEATE
+UIEAJ
+4ser_base_detais AS
+SELECT :4,
+name
+938 ,
+pircode
+FroM user
+Note
+In
+Uiews
+are read
+only
+he
+cannot per- {m
+crite Opera
+lite
+dele-fing
+rotay
+te
+base (abl
+throrah
+uiouls
+and
+Viels
+Queryi-Ur
+name
+{ndtead o
+~te
+riqinal
+qued
+xe
+can le it
+he
+dala
+a21
+SELect
+FRoH
+User _ bare_celails_
+Bhavana
+Notes by
+Views
+Gende E
+coifh
+deraer ,
+denera
+updakind"
+Hona
+rcyortind
+ertna
+--- PAGE 83 ---
+List-AIl ~Availabe
+Uess
+In SQLle , to Ist all the
+availabb
+Uieus,
+Le
+use #o
+Plastee
+Sxnax: -
+SLET
+name
+Fpoh
+sqlile-
+master
+whtere
+7ype
+Viec
+ut2t+-
+mme
+oider_co: H _ Product $
+user_ baso_detoik
+@ELETE
+Uec?
+remove
+Uicl
+Com a
+datobase_
+use   {he
+Deop
+Ulustrle_
+ment .
+Sartex; -
+DROP
+VIER
+Uie_name
+Exanele
+pelete
+User_
+base details
+Urea
+Rom +he
+dabose
+DRop UTEW
+uer _Bose_
+~detaik_
+Ad
+Ivanteges:
+are
+ued +o
+prito
+Seplex
+suerie4
+iovokes
+joins
+L4
+21
+an
+can
+used
+cshen =
+mukiele
+Toup
+needed
+Qestict
+@aess
+to-te Yala juch tot
+UsQr
+can
+old
+Sce
+ltimited -dala inctead o
+Campiete dable Notes by Bhavana
+quer
+fhat
+Uieers
+--- PAGE 84 ---
+Transctions
+and
+Indexes
+Irangoa Hon3
+one
+Lronsaa-tien
+tansacko
+Iagical &rop
+motq
+SL Statemenla
+SELECT
+Transao
+are
+used
+Jarious
+Srena-
+UPDaTE
+@commere _
+Soia|
+Ruch
+banking -
+booking  ~Lckets;
+etc.
+TSLRT
+netuk4
+4 A
+~ansction hae
+~ur   impatant
+Pope Kes _
+-Alomicity
+(9
+Consistencr
+Isdation
+(4) Durbilte
+Abomicit
+EiHer
+SQL Slatements
+none
+ar
+applied
+~bbase
+~annctoo
+Lansacton
+S0L
+SOL
+Debit
+VpebiL
+sel
+Vctedil
+@edil
+SaLL
+Notes by Bhavana
+Liorf
+rous
+--- PAGE 85 ---
+enzstenct:
+TTiangaatioyys
+leave
+Hh? dalabase
+Consisten& Slale
+Sam
+Du;
+be kere
+SQQJ
+IS, 00
+(0_000
+1S , 000
+Succers
+0Q0
+6.000
+Ealur
+IQ.000
+SL000
+IS,oo
+Tsolatioo
+Multiple  ~ragactio
+ann
+occur at , €he
+same ~me
+Uthat
+' dvecely
+aPfecting
+He
+other
+an
+(0 , 000
+Ctedit
+bebil 16
+bbit 9kl
+25k
+25,000
+Notes by Bhavana
+akooys
+--- PAGE 86 ---
+Dwrgblty -
+op
+Succesr-
+Rll ~Lansactio
+pesist even
+after
+Crsh;
+Hlannc RooF
+Credit
+JQLooq
+Sk
+David
+ISoo0
+"8ttem ~Aailure
+Ogi
+Dauid
+ACID
+tes
+tour
+Properties
+are
+acndmed
+tomic ty
+onristent Lrola-ton Durable
+Notes by Bhavana
+chandes
+Sdelcm
+Commodld
+--- PAGE 87 ---
+Lndexes
+ab.
+93
+bz
+32
+33
+02
+43
+searcbing
+k,
+cjaid
+Tn
+Scemriq
+(ike,
+search
+or the  cjord_
+use
+index
+easyy
+SimilarIcp
+Slto bases,
+u2
+main-aia
+indoxes t
+UP
+#2
+Pr
+cato
+fn -4 -oble _
+Notes by Bhavana
+Xt
+Aickiona d'
+speed
+search

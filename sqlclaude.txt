@@ -1,0 +1,1268 @@
+# The Complete SQL Handbook
+**Notes by Bhavana**
+
+---
+
+## Table of Contents
+1. Introduction to Databases
+2. Introduction to SQL (Basic Concepts)
+   - 2.1 Tables
+   - 2.2 Creating Tables
+   - 2.3 Inserting Rows
+   - 2.4 Retrieving Data
+   - 2.5 Updating Data
+   - 2.6 Deleting Rows
+   - 2.7 Alter Tables
+3. Querying with SQL
+   - 3.1 Comparison Operators
+   - 3.2 String Operators (LIKE)
+   - 3.3 Logical Operators
+   - 3.4 IN and BETWEEN Operators
+   - 3.5 ORDER BY and DISTINCT
+4. Aggregations and GROUP BY
+   - 4.1 Aggregate Functions
+   - 4.2 GROUP BY
+5. Common Concepts
+   - 5.1 SQL Expressions
+   - 5.2 SQL Functions
+6. Databases & ER Model
+   - 6.1 Core Concepts
+   - 6.2 Creating a Relational Database
+7. Joins
+   - 7.1 Natural Join
+   - 7.2 Inner Join
+   - 7.3 Left Join
+   - 7.4 Right Join
+   - 7.5 Full Join
+   - 7.6 Cross Join
+8. Views and Subqueries
+9. Transactions and Indexes
+
+---
+
+## 1. Introduction to Databases
+
+### Key Concepts
+
+- **Data**: Any sort of information that is stored. Examples: Messages (WhatsApp), Products and Orders (Amazon), Contact details (Telephone).
+- **Database**: An organized collection of data.
+- **Database Management System (DBMS)**: Software used to easily store and access data from the database in a secure way.
+
+### Advantages of Databases
+- Data is stored and maintained securely.
+- **Ease of Use**: Provides simpler ways to create, update data.
+- **Availability & Durability**: Provides access at all times to all clients.
+- **Performance**: Quickly accessible to all clients, applications, and stakeholders.
+
+### Types of Databases
+There are different types of databases based on how they organize data:
+- Relational
+- Key-Value
+- Document
+- Family Column
+- Graph
+
+### Relational Database
+In relational databases, data is stored in the form of **tables**.
+
+### Non-Relational Database
+Includes: Graph, Key-Value, Column Family, Document.
+> **Note**: The choice of database depends on your requirements. Relational databases are the most commonly used.
+
+### Relational DBMS
+A DBMS designed specifically for relational databases. It stores data in the form of tables.
+**Examples**: Oracle, PostgreSQL, MySQL, SQLite, SQL Server, IBM DB2, etc.
+
+### Non-Relational DBMS
+A DBMS designed for non-relational databases. Stores data in non-tabular form.
+**Examples**: Elasticsearch, CouchDB, DynamoDB, MongoDB, Cassandra, Redis, etc.
+
+---
+
+## 2. Introduction to SQL (Basic Concepts)
+
+**SQL** stands for **Structured Query Language**.
+
+SQL is used to perform operations on a Relational DBMS. SQL is **declarative**, hence easy to learn.
+
+SQL provides multiple clauses and commands to:
+- **Create** — Create a new table
+- **Retrieve** — Fetch data
+- **Update** — Modify data
+- **Delete** — Remove data
+
+---
+
+### 2.1 CREATE TABLE
+
+Creates a new table in the database.
+
+**Syntax:**
+```sql
+CREATE TABLE table_name (
+    column1 type1,
+    column2 type2
+);
+```
+
+**Example:** Create a `player` table to store player details.
+
+| Column Name | Data Type    |
+|-------------|--------------|
+| name        | VARCHAR(200) |
+| age         | INT/INTEGER  |
+| score       | INT          |
+
+```sql
+CREATE TABLE player (
+    name    VARCHAR(20),
+    age     INTEGER,
+    score   INTEGER
+);
+```
+
+We can check the details of the created table using the `PRAGMA` command:
+```sql
+PRAGMA TABLE_INFO(table_name);
+```
+
+---
+
+### Data Types in SQL
+
+| Datatype  | Syntax    |
+|-----------|-----------|
+| Integer   | INT / INTEGER |
+| Float     | FLOAT     |
+| String    | VARCHAR   |
+| Text      | TEXT      |
+| Date      | DATE      |
+| Time      | TIME      |
+| Datetime  | DATETIME  |
+| Boolean   | BOOLEAN   |
+
+> **Note**: Boolean values are stored as integers: `0` (FALSE) and `1` (TRUE).
+> Date objects are represented as `YYYY-MM-DD`.
+> Datetime objects are represented as `YYYY-MM-DD HH:MM:SS`.
+
+---
+
+### 2.3 Inserting Rows
+
+The `INSERT INTO` clause is used to insert new rows into a table.
+
+**Syntax:**
+```sql
+INSERT INTO table (column1, column2, ..., columnN)
+VALUES
+    (value1, value2, ..., valueN),
+    (value1, value2, ..., valueN);
+```
+
+**Example:** Insert name, age, and score of players into the player table.
+```sql
+INSERT INTO player (name, age, score)
+VALUES
+    ('Rakesh', 39, 35),
+    ('Sai', 47, 38);
+```
+
+#### Common Mistakes while Inserting
+
+**Mistake 1**: Number of values doesn't match number of columns specified.
+```sql
+-- Error: Column count mismatch
+INSERT INTO player (name, age)
+VALUES ('Virat', 34, 35);
+```
+
+**Mistake 2**: Table name doesn't exist.
+```sql
+-- Error: no such table: player_information
+INSERT INTO player_information (name, score)
+VALUES ('Virat', 34);
+```
+
+**Mistake 3**: Data types don't match.
+```sql
+-- Error: data type mismatch
+INSERT INTO player (name, age, score)
+VALUES ('Virat', 70, 'Hundred');
+```
+
+---
+
+### 2.4 Retrieving Data (SELECT)
+
+The `SELECT` clause is used to retrieve rows from a table.
+
+**Selecting Specific Columns:**
+```sql
+SELECT column1, column2, columnN
+FROM table_name;
+```
+
+**Example:** Get the name and age of players from the player table.
+```sql
+SELECT name, age
+FROM player;
+```
+
+**Output:**
+
+| name   | age |
+|--------|-----|
+| Virat  | 32  |
+| Rakesh |     |
+| Sai    |     |
+
+**Selecting All Columns:**
+```sql
+SELECT *
+FROM table_name;
+```
+
+**Selecting Specific Rows (WHERE clause):**
+```sql
+SELECT *
+FROM table_name
+WHERE condition;
+```
+
+**Example:** Get the name of the player whose name is 'Sai'.
+```sql
+SELECT *
+FROM player
+WHERE name = 'Sai';
+```
+
+---
+
+### 2.5 Update Rows
+
+The `UPDATE` clause is used to modify data in an existing table.
+
+**Update All Rows:**
+```sql
+UPDATE table_name
+SET column1 = value1;
+```
+
+**Example:**
+```sql
+UPDATE player
+SET score = 100;
+```
+
+**Update Specific Rows:**
+```sql
+UPDATE table_name
+SET column1 = value1
+WHERE column = value2;
+```
+
+**Example:**
+```sql
+UPDATE player
+SET score = 150
+WHERE name = 'Ram';
+```
+
+---
+
+### 2.6 Delete Rows
+
+The `DELETE` clause is used to delete records from a table.
+
+**Delete All Rows:**
+```sql
+DELETE FROM table_name;
+```
+
+**Example:**
+```sql
+DELETE FROM player;
+```
+
+**Delete Specific Rows:**
+```sql
+DELETE FROM table_name
+WHERE column = value;
+```
+
+**Example:**
+```sql
+DELETE FROM player
+WHERE name = 'Shyam';
+```
+
+> **Warning**: We cannot retrieve the data once we delete it from the tables.
+
+**DROP TABLE** — Deletes the entire table from the database:
+```sql
+DROP TABLE table_name;
+```
+
+---
+
+### 2.7 Alter Table
+
+The `ALTER` clause is used to add, delete, or modify columns in a table.
+
+**Add Column:**
+```sql
+ALTER TABLE table_name
+ADD column_name datatype;
+```
+
+**Example:** Add a new column `jersey_num` of type INTEGER.
+```sql
+ALTER TABLE player
+ADD jersey_num INT;
+```
+> **Note**: Added columns receive `NULL` as their default value.
+
+**Rename Column:**
+```sql
+ALTER TABLE table_name
+RENAME COLUMN old_name TO new_name;
+```
+
+**Example:**
+```sql
+ALTER TABLE player
+RENAME COLUMN jersey_num TO jersey_number;
+```
+
+**Drop Column:**
+```sql
+ALTER TABLE table_name
+DROP COLUMN column_name;
+```
+
+**Example:**
+```sql
+ALTER TABLE player
+DROP COLUMN jersey_number;
+```
+> **Note**: `DROP COLUMN` is not supported in some DBMS, including SQLite.
+
+---
+
+## 3. Querying with SQL
+
+### 3.1 Comparison Operators
+
+| Operator | Description           |
+|----------|-----------------------|
+| `=`      | Equals                |
+| `!=`     | Not equals            |
+| `<`      | Less than             |
+| `<=`     | Less than or equal to |
+| `>`      | Greater than          |
+| `>=`     | Greater than or equal to |
+
+**Example:** Get all products whose category is NOT 'Food'.
+```sql
+SELECT *
+FROM product
+WHERE category != 'Food';
+```
+
+---
+
+### 3.2 LIKE Operator (String Operations)
+
+The `LIKE` operator is used in a `WHERE` clause to retrieve rows that match a given pattern.
+
+**Wildcard Characters:**
+
+| Symbol | Description                        | Example                  |
+|--------|------------------------------------|--------------------------|
+| `%`    | Represents zero or more characters | `a%`, `%chips`, `%cho%`  |
+| `_`    | Represents a single character      | `al_`, `_at`, `b_t`      |
+
+**Common Patterns:**
+
+| Pattern            | Description                                          |
+|--------------------|------------------------------------------------------|
+| `WHERE name LIKE 'Mobiles'` | Exact match                               |
+| `WHERE name LIKE 'mobiles%'` | Name starts with 'mobiles'              |
+| `WHERE name LIKE '%mobiles'` | Name ends with 'mobiles'                |
+| `WHERE name LIKE '%mobiles%'` | Name contains 'mobiles'                |
+| `WHERE name LIKE '__%'` | Name has at least 2 characters             |
+
+**Syntax:**
+```sql
+SELECT *
+FROM table_name
+WHERE column LIKE pattern;
+```
+
+**Examples:**
+```sql
+-- Get all products in the 'Gadgets' category
+SELECT *
+FROM product
+WHERE category LIKE 'Gadgets';
+
+-- Get all products whose name starts with 'Bourbon'
+SELECT *
+FROM product
+WHERE name LIKE 'Bourbon%';
+
+-- Get all Smart electronics products
+SELECT *
+FROM product
+WHERE name LIKE '%Smart%';
+
+-- Get all products whose brand has exactly 5 characters
+SELECT *
+FROM product
+WHERE brand LIKE '_____';
+```
+
+> **Note**: Use `%` when you are not sure of the number of characters. Use `_` when you know the exact length of the string.
+
+---
+
+### 3.3 Logical Operators
+
+| Operator | Description                                         |
+|----------|-----------------------------------------------------|
+| `AND`    | Returns rows that satisfy two or more conditions    |
+| `OR`     | Returns rows that satisfy either condition          |
+| `NOT`    | Negates a condition in the WHERE clause             |
+
+**Syntax:**
+```sql
+SELECT *
+FROM table_name
+WHERE condition1 operator condition2;
+```
+
+**Examples:**
+```sql
+-- Get clothing products with price <= 1000
+SELECT *
+FROM product
+WHERE category = 'clothing' AND price <= 1000;
+
+-- Get all products NOT containing 'cake' in the name
+SELECT *
+FROM product
+WHERE NOT name LIKE '%cake%';
+```
+
+**Operator Precedence (High to Low):**
+1. NOT
+2. AND
+3. OR
+
+> **Tip**: Always use parentheses when grouping multiple conditions to ensure correctness.
+
+**Example with multiple operators:**
+```sql
+-- Products from Redmi brand with rating >= 4 OR from OnePlus brand
+SELECT *
+FROM product
+WHERE (brand = 'Redmi' AND rating >= 4)
+   OR brand = 'OnePlus';
+```
+
+---
+
+### 3.4 IN and BETWEEN Operators
+
+**IN Operator** — Retrieves rows where the column value is present in the given list.
+
+**Syntax:**
+```sql
+SELECT *
+FROM table_name
+WHERE column IN (value1, value2, ...);
+```
+
+**Example:**
+```sql
+SELECT *
+FROM product
+WHERE brand IN ('Puma', 'Levi\'s', 'HRX', 'Lee', 'Denim');
+```
+
+---
+
+**BETWEEN Operator** — Retrieves all rows where the column value is within a given range.
+
+**Syntax:**
+```sql
+SELECT *
+FROM table_name
+WHERE column BETWEEN value1 AND value2;
+```
+
+> **Note**: The BETWEEN operator is **inclusive** — both the lower and upper limit values are included.
+
+**Example:** Find products with price ranging from 1000 to 5000.
+```sql
+SELECT name, price, brand
+FROM product
+WHERE price BETWEEN 1000 AND 5000;
+```
+
+#### Common Mistakes with BETWEEN
+- The first value should always be **less than** the second value.
+- The data type must match the column's data type.
+
+---
+
+### 3.5 ORDER BY and DISTINCT
+
+**ORDER BY** — Sorts data in ascending (default) or descending order.
+
+**Syntax:**
+```sql
+SELECT column1, column2
+FROM table_name
+WHERE condition
+ORDER BY column1 ASC|DESC, column2 ASC|DESC;
+```
+
+**Example:** Get all Puma products ordered by lowest price and highest rating.
+```sql
+SELECT name, price, rating
+FROM product
+WHERE brand = 'Puma'
+ORDER BY price ASC, rating DESC;
+```
+
+---
+
+**DISTINCT** — Returns only unique values.
+
+**Syntax:**
+```sql
+SELECT DISTINCT column1, column2
+FROM table_name
+WHERE condition;
+```
+
+**Example:** Get all unique brands from the product table.
+```sql
+SELECT DISTINCT brand
+FROM product;
+```
+
+---
+
+**LIMIT and OFFSET** — Used for pagination.
+
+- `LIMIT`: Specifies the number of rows to retrieve.
+- `OFFSET`: Specifies the starting position (from which row to begin).
+
+**Syntax:**
+```sql
+SELECT column1, column2
+FROM table_name
+LIMIT n OFFSET m;
+```
+
+**Example:** Get top 3 Puma products ordered by highest rating.
+```sql
+SELECT name, price, rating
+FROM product
+WHERE brand = 'Puma'
+ORDER BY rating DESC
+LIMIT 3;
+```
+
+**Example:** Get top 5 rated products starting from the 7th record.
+```sql
+SELECT name, price, rating
+FROM product
+ORDER BY rating DESC
+LIMIT 5 OFFSET 6;
+```
+
+> **Note**: `OFFSET` clause should always be placed **after** the `LIMIT` clause. Default OFFSET is 0.
+
+---
+
+## 4. Aggregations and GROUP BY
+
+### 4.1 Aggregate Functions
+
+Combining multiple values into a single value is called **aggregation**.
+
+| Function | Description                     |
+|----------|---------------------------------|
+| `COUNT`  | Counts the number of values     |
+| `SUM`    | Adds the values                 |
+| `MIN`    | Returns the minimum value       |
+| `MAX`    | Returns the maximum value       |
+| `AVG`    | Calculates the average value    |
+
+**Syntax:**
+```sql
+SELECT aggregate_function(column1), aggregate_function(column2)
+FROM table_name;
+```
+
+**Examples:**
+
+```sql
+-- Get total runs scored by Ram
+SELECT SUM(score)
+FROM player_match_details
+WHERE name = 'Ram';
+
+-- Get highest and lowest scores in matches from 2011
+SELECT MAX(score), MIN(score)
+FROM player_match_details
+WHERE year = 2011;
+```
+
+#### COUNT Variants
+
+```sql
+-- Variant 1: Count all rows
+SELECT COUNT(*) FROM player_match_details;
+
+-- Variant 2: Count all rows (same result)
+SELECT COUNT(1) FROM player_match_details;
+
+-- Variant 3: Count non-NULL values in a column
+SELECT COUNT(column_name) FROM player_match_details;
+```
+
+> **Note**:
+> - `COUNT(*)` counts all rows including those with NULL values.
+> - `COUNT(column_name)` counts only Non-NULL values in the specified column.
+
+#### Aggregate Functions and NULL Values
+
+| Aggregate Function | Output with all NULLs |
+|--------------------|----------------------|
+| MIN                | NULL                 |
+| MAX                | NULL                 |
+| SUM                | NULL                 |
+| COUNT              | 0                    |
+| AVG                | NULL                 |
+
+> NULL values are **ignored** while computing aggregates (except COUNT(*)).
+
+---
+
+### Alias (AS)
+
+We can provide temporary names to columns in the output using the `AS` keyword.
+
+**Syntax:**
+```sql
+SELECT column1 AS alias_name
+FROM table_name;
+```
+
+**Example:**
+```sql
+SELECT name AS player_name
+FROM match_details;
+```
+
+---
+
+### 4.2 GROUP BY
+
+The `GROUP BY` clause in SQL is used to group rows that have the same values in the mentioned attributes.
+
+**Syntax:**
+```sql
+SELECT column, aggregate_function(column2)
+FROM table_name
+GROUP BY column;
+```
+
+**Example:** Get the total score of each player.
+```sql
+SELECT name, SUM(score) AS total_score
+FROM player_match_details
+GROUP BY name;
+```
+
+**GROUP BY with WHERE:**
+```sql
+SELECT name, COUNT(*) AS half_centuries
+FROM match_details
+WHERE score >= 50
+GROUP BY name;
+```
+
+---
+
+### HAVING
+
+The `HAVING` clause is used to filter the resultant rows after the application of `GROUP BY`.
+
+**Syntax:**
+```sql
+SELECT column1, aggregate_function(column2)
+FROM table_name
+GROUP BY column
+HAVING condition;
+```
+
+**Example:** Get the name and number of half centuries of players who scored more than one.
+```sql
+SELECT name, COUNT(*) AS half_centuries
+FROM player_match_details
+WHERE score >= 50
+GROUP BY name
+HAVING half_centuries > 1;
+```
+
+> **Note**:
+> - `WHERE` is used to filter rows **before** grouping.
+> - `HAVING` is used to filter rows **after** grouping.
+
+---
+
+## 5. Common Concepts
+
+### 5.1 SQL Expressions
+
+We can write expressions in various SQL clauses. Expressions can comprise various data types like integers, floats, strings, datetime, etc.
+
+**Expressions in SELECT:**
+```sql
+-- Get profit of movies (collection - budget)
+SELECT name, (collection_incr - budget_incr) AS profit
+FROM movie;
+```
+
+**String Concatenation:**
+```sql
+-- Get movie name and genre in format: "name - genre"
+SELECT name || ' - ' || genre AS movie_genre
+FROM movie;
+```
+
+**Expressions in WHERE:**
+```sql
+-- Get all movies with profit at least 60 crores
+SELECT *
+FROM movie
+WHERE (collection_incr - budget_incr) > 60;
+```
+
+**Expressions in UPDATE:**
+```sql
+-- Scale down all movie ratings by half
+UPDATE movie
+SET rating = rating / 2;
+```
+
+**Expressions in HAVING:**
+```sql
+-- Get genres with average profit >= 100
+SELECT genre
+FROM movie
+GROUP BY genre
+HAVING AVG(collection_incr - budget_incr) >= 100;
+```
+
+---
+
+### 5.2 SQL Functions
+
+SQL provides built-in functions to perform various operations over data stored in tables.
+
+#### Date Functions
+
+`strftime()` — Used to extract month, year, day, etc. from a datetime field.
+
+**Syntax:**
+```sql
+strftime(format, field_name)
+```
+
+| Format | Description | Example                          |
+|--------|-------------|----------------------------------|
+| `%Y`   | Year        | `strftime('%Y', field_name)`     |
+| `%m`   | Month       | `strftime('%m', field_name)`     |
+| `%d`   | Day         | `strftime('%d', field_name)`     |
+| `%H`   | Hour        | `strftime('%H', field_name)`     |
+
+**Example:** Get movie name and release year.
+```sql
+SELECT name, strftime('%Y', release_date) AS year
+FROM movie;
+```
+
+#### CAST Function
+
+Converts a value from one data type to another.
+
+**Syntax:**
+```sql
+CAST(value AS data_type)
+```
+
+**Example:** Find how many movies were released each month in 2010.
+```sql
+SELECT strftime('%m', release_date) AS month, COUNT(*) AS total_movies
+FROM movie
+WHERE CAST(strftime('%Y', release_date) AS INTEGER) = 2010
+GROUP BY month;
+```
+
+---
+
+#### Arithmetic Functions
+
+| Function | Description                              | Syntax             |
+|----------|------------------------------------------|--------------------|
+| `FLOOR`  | Rounds down to nearest integer           | `FLOOR(number)`    |
+| `CEIL`   | Rounds up to nearest integer             | `CEIL(number)`     |
+| `ROUND`  | Rounds to specified decimal places       | `ROUND(number, decimal_places)` |
+
+**Examples:**
+```sql
+SELECT FLOOR(2.3);  -- Output: 2
+SELECT CEIL(2.7);   -- Output: 3
+SELECT ROUND(2.345, 2);  -- Output: 2.35
+```
+
+---
+
+#### String Functions
+
+| Function   | Behaviour                          |
+|------------|------------------------------------|
+| `UPPER()`  | Converts string to uppercase       |
+| `LOWER()`  | Converts string to lowercase       |
+
+**Example:** Case-insensitive search.
+```sql
+SELECT name
+FROM movie
+WHERE UPPER(name) LIKE UPPER('%avengers%');
+```
+
+---
+
+### SQL Set Operations
+
+SQL set operations are used to combine the results of two SQL queries.
+
+| Operation    | Description                                             |
+|--------------|---------------------------------------------------------|
+| `INTERSECT`  | Returns rows common to both queries                     |
+| `MINUS`      | Returns rows in first query but not in second           |
+| `UNION`      | Returns all unique rows from both queries               |
+| `UNION ALL`  | Returns all rows including duplicates from both queries |
+
+**Basic Rules:**
+- Each SELECT statement must have the same number of columns.
+- The columns must have similar data types.
+- Columns must be in the same order.
+
+**Syntax:**
+```sql
+SELECT column1, column2 FROM table1
+SET_OPERATOR
+SELECT column1, column2 FROM table2;
+```
+
+**Example:**
+```sql
+-- Get IDs of actors who acted in both Sherlock Holmes (id=6) and Avengers Endgame (id=15)
+SELECT actor_id FROM cast WHERE movie_id = 6
+INTERSECT
+SELECT actor_id FROM cast WHERE movie_id = 15;
+```
+
+**ORDER BY and LIMIT in Set Operations:**
+```sql
+-- ORDER BY and LIMIT/OFFSET appear only once, at the end
+SELECT actor_id FROM cast WHERE movie_id = 6
+UNION
+SELECT actor_id FROM cast WHERE movie_id = 15
+ORDER BY actor_id DESC
+LIMIT 5;
+```
+
+---
+
+## 6. Databases & ER Model
+
+### 6.1 Core Concepts
+
+#### Entity
+Any real-world object or concept is called an **entity**.
+- Example: John, Emma, Apple
+
+#### Attribute
+The properties that describe an entity are called **attributes**.
+- Example: name, age (attributes of a Person entity)
+
+#### Key Attribute
+The attribute that **uniquely identifies** each entity is called the **key attribute**.
+- Example: `aadhar_number` for a person
+
+#### Relationship
+The association between entities is called a **relationship**.
+- Example: A person **has** a passport
+
+#### Types of Relationships
+
+| Type         | Description                                         | Example                          |
+|--------------|-----------------------------------------------------|----------------------------------|
+| One-to-One   | One entity is related to exactly one other entity   | A person has one passport        |
+| One-to-Many  | One entity is related to many entities              | A customer places many orders    |
+| Many-to-Many | Multiple entities are related to multiple entities  | Students enroll in many courses  |
+
+---
+
+### 6.2 Creating a Relational Database
+
+#### Primary Key
+A column (or set of columns) that uniquely identifies each row in a table.
+
+```sql
+CREATE TABLE table_name (
+    id INTEGER NOT NULL PRIMARY KEY,
+    ...
+);
+```
+
+#### Foreign Key
+A column that references the primary key of another table.
+
+```sql
+CREATE TABLE table2 (
+    id INTEGER NOT NULL PRIMARY KEY,
+    foreign_column INTEGER,
+    FOREIGN KEY (foreign_column) REFERENCES table1(id)
+    ON DELETE CASCADE
+);
+```
+
+> **Note**: `ON DELETE CASCADE` means: when a referenced row is deleted, all related rows in this table are also deleted.
+
+---
+
+#### E-Commerce Example
+
+**customer Table:**
+```sql
+CREATE TABLE customer (
+    id       INTEGER NOT NULL PRIMARY KEY,
+    name     VARCHAR(250),
+    age      INTEGER,
+    pin_code VARCHAR(20)
+);
+```
+
+**product Table:**
+```sql
+CREATE TABLE product (
+    id       INTEGER NOT NULL PRIMARY KEY,
+    name     VARCHAR(250),
+    price    INTEGER,
+    brand    VARCHAR(250),
+    rating   REAL,
+    category VARCHAR(250)
+);
+```
+
+**address Table:**
+```sql
+CREATE TABLE address (
+    id          INTEGER NOT NULL PRIMARY KEY,
+    pin_code    VARCHAR(20),
+    door_no     VARCHAR(250),
+    street      VARCHAR(250),
+    customer_id INTEGER,
+    FOREIGN KEY (customer_id) REFERENCES customer(id) ON DELETE CASCADE
+);
+```
+
+**cart Table:**
+```sql
+CREATE TABLE cart (
+    id          INTEGER NOT NULL PRIMARY KEY,
+    customer_id INTEGER NOT NULL,
+    total_price INTEGER,
+    FOREIGN KEY (customer_id) REFERENCES customer(id) ON DELETE CASCADE
+);
+```
+
+**cart_product Table (Junction Table):**
+```sql
+CREATE TABLE cart_product (
+    id         INTEGER NOT NULL PRIMARY KEY,
+    cart_id    INTEGER,
+    product_id INTEGER,
+    quantity   INTEGER,
+    FOREIGN KEY (cart_id)    REFERENCES cart(id)    ON DELETE CASCADE,
+    FOREIGN KEY (product_id) REFERENCES product(id) ON DELETE CASCADE
+);
+```
+
+---
+
+## 7. Joins
+
+Joins are used to combine rows from two or more tables based on a related column between them.
+
+### 7.1 Natural Join
+
+Combines tables based on all common columns automatically.
+
+**Syntax:**
+```sql
+SELECT *
+FROM table1
+NATURAL JOIN table2;
+```
+
+**Example:** Fetch the details of courses that are being taken by Alex.
+```sql
+SELECT course.name, instructor.name
+FROM course
+NATURAL JOIN instructor
+WHERE instructor.name = 'Alex';
+```
+
+---
+
+### 7.2 Inner Join
+
+Returns rows where there is a match in both tables based on the given condition.
+
+**Syntax:**
+```sql
+SELECT *
+FROM table1
+INNER JOIN table2
+ON table1.column = table2.column;
+```
+
+**Example:** Get all students who have submitted a review along with the review details.
+```sql
+SELECT student.id, student.name, review.content
+FROM student
+INNER JOIN review
+ON student.id = review.student_id
+WHERE review.rating = 4;
+```
+
+---
+
+### 7.3 Left Join
+
+Returns all rows from the left table and matched rows from the right table. If there is no match, NULL is assigned to right table columns.
+
+**Syntax:**
+```sql
+SELECT *
+FROM table1
+LEFT JOIN table2
+ON table1.column = table2.column;
+```
+
+**Example:** Get name of students who have NOT enrolled in any course.
+```sql
+SELECT student.id, student.name
+FROM student
+LEFT JOIN student_course
+ON student.id = student_course.student_id
+WHERE student_course.student_id IS NULL;
+```
+
+---
+
+### Joining Multiple Tables
+
+**Example:** Get all students enrolled in a course along with the course name and instructor.
+```sql
+SELECT student.name, course.name, instructor.name
+FROM course
+INNER JOIN student_course ON course.id = student_course.course_id
+INNER JOIN student        ON student.id = student_course.student_id;
+```
+
+---
+
+### Using Joins with Aggregations
+
+**Example:** Get the highest score in each course.
+```sql
+SELECT course.name AS course_name, MAX(student_course.score) AS highest_score
+FROM course
+INNER JOIN student_course ON course.id = student_course.course_id
+GROUP BY course.name;
+```
+
+---
+
+### 7.4 Right Join
+
+Returns all rows from the right table and matched rows from the left table. If there is no match, NULL is assigned to the left table columns.
+
+**Syntax:**
+```sql
+SELECT *
+FROM table1
+RIGHT JOIN table2
+ON table1.column = table2.column;
+```
+
+> **Note**: RIGHT JOIN is not supported in some DBMS (e.g., SQLite).
+
+---
+
+### 7.5 Full Join
+
+Returns all rows from both tables. If there is no match, NULL is assigned.
+
+**Syntax:**
+```sql
+SELECT *
+FROM table1
+FULL JOIN table2
+ON table1.column = table2.column;
+```
+
+> **Note**: FULL JOIN is not supported in some DBMS (e.g., SQLite).
+
+---
+
+### 7.6 Cross Join
+
+Combines each row from the first table with all rows in the second table. Also called a **Cartesian Join**.
+
+**Syntax:**
+```sql
+SELECT *
+FROM table1
+CROSS JOIN table2;
+```
+
+---
+
+### Self Join
+
+Joins a table with itself.
+
+**Syntax:**
+```sql
+SELECT t1.column, t2.column
+FROM table AS t1
+JOIN table AS t2
+ON t1.column = t2.column;
+```
+
+**Example:** Get students who registered under the same common code.
+```sql
+SELECT s1.student_id, s2.student_id
+FROM student_course AS s1
+INNER JOIN student_course AS s2
+ON s1.course_id = s2.course_id
+WHERE s1.student_id != s2.student_id;
+```
+
+---
+
+### Joins Summary
+
+| Join Type    | Description                                                       |
+|--------------|-------------------------------------------------------------------|
+| Natural Join | Based on common columns                                           |
+| Inner Join   | Based on a given condition, returns matched rows from both tables |
+| Left Join    | All rows from left table + matched rows from right table          |
+| Right Join   | All rows from right table + matched rows from left table          |
+| Full Join    | All rows from both tables                                         |
+| Cross Join   | All possible combinations of both tables                          |
+
+---
+
+## 8. Views and Subqueries
+
+### Views
+
+A **View** is considered a virtual table with a name for a SQL query.
+
+**Creating a View:**
+```sql
+CREATE VIEW view_name AS
+SELECT column1, column2
+FROM table_name;
+```
+
+**Example:** Create a view for basic user details.
+```sql
+CREATE VIEW user_base_details AS
+SELECT id, name, age, pincode
+FROM user;
+```
+
+**Querying a View:**
+```sql
+SELECT *
+FROM user_base_details;
+```
+
+**Listing All Views (SQLite):**
+```sql
+SELECT name
+FROM sqlite_master
+WHERE type = 'view';
+```
+
+**Deleting a View:**
+```sql
+DROP VIEW view_name;
+```
+
+**Advantages of Views:**
+- Used to simplify complex queries that involve joins.
+- Can be used when multiple groups need the same query result.
+- Restricts access to data — users can only see limited data instead of the complete table.
+
+---
+
+## 9. Transactions and Indexes
+
+### 9.1 Transactions
+
+A **transaction** is a logical group of one or more SQL statements (SELECT, UPDATE, etc.).
+
+Transactions are used in various scenarios such as banking, booking tickets, e-commerce, etc.
+
+### ACID Properties
+
+A transaction has four important properties:
+
+| Property    | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| **Atomicity**    | Either all SQL statements are applied to the database or none are.     |
+| **Consistency**  | Transactions always leave the database in a consistent state.          |
+| **Isolation**    | Multiple transactions can occur at the same time without affecting each other. |
+| **Durability**   | All successful transactions persist even after a system crash.         |
+
+---
+
+### 9.2 Indexes
+
+Indexes are used to speed up searching in the database — similar to an index in a book or dictionary.
+
+Without an index, the database scans every row to find matching data (called a **full table scan**).
+
+With an index, the database can quickly locate the relevant data.
+
+> Databases maintain indexes to speed up the process of finding data in a table.
+
+---
+
+*Notes by Bhavana — The Complete SQL Handbook*
