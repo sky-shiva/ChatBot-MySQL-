@@ -227,46 +227,87 @@ for msg in st.session_state.messages:
 
 # Chat input
 if query := st.chat_input("Ask about SQL (e.g., 'what is a JOIN', 'how to use GROUP BY')..."):
+
     # Add user message
     st.session_state.messages.append({"role": "user", "content": query})
+    
     with st.chat_message("user"):
         st.markdown(query)
+
+    # ============================
+    # 🧠 CONTEXT BUILDING (NEW FIX)
+    # ============================
     
-    # Check if question is SQL-related
-    sql_keywords = ['sql', 'database', 'query', 'select', 'join', 'group by', 'order by', 
-                    'where', 'insert', 'update', 'delete', 'table', 'index', 'transaction',
-                    'window function', 'cte', 'subquery', 'primary key', 'foreign key']
-    
-    is_sql_related = any(keyword in query.lower() for keyword in sql_keywords)
-    
+    recent_context = "\n".join(
+        [f"{m['role']}: {m['content']}" for m in st.session_state.messages[-6:]]
+    )
+
+    combined_query = f"""
+Previous conversation:
+{recent_context}
+
+Current question:
+{query}
+
+If this is a follow-up question (like "that", "it", "this", "why", "how"), resolve it using context.
+"""
+
+    # ============================
+    # 🔍 SQL CHECK (FIXED LOGIC)
+    # ============================
+
+    sql_keywords = [
+        'sql', 'database', 'query', 'select', 'join', 'group by',
+        'order by', 'where', 'insert', 'update', 'delete', 'table',
+        'index', 'transaction', 'window function', 'cte',
+        'subquery', 'primary key', 'foreign key'
+    ]
+
+    is_sql_related = any(
+        k in (query.lower() + recent_context.lower())
+        for k in sql_keywords
+    )
+
+    # ============================
+    # 🧾 RESPONSE AREA
+    # ============================
+
     if not is_sql_related:
         with st.chat_message("assistant"):
-            response = "I'm a SQL documentation assistant. I can only answer questions about SQL and databases. Please ask me about SQL concepts like SELECT, JOIN, GROUP BY, window functions, etc."
+            response = (
+                "I can only help with SQL and database topics. "
+                "Try asking about SELECT, JOIN, GROUP BY, etc."
+            )
             st.markdown(response)
-            st.session_state.messages.append({"role": "assistant", "content": response})
+
+            st.session_state.messages.append(
+                {"role": "assistant", "content": response}
+            )
+
     else:
-        # Generate response using RAG
         with st.chat_message("assistant"):
             placeholder = st.empty()
             placeholder.markdown("🔍 Searching SQL documentation...")
+
             t0 = time.time()
-            
+
             try:
-                # Get answer from the QA chain
-                answer = st.session_state.qa_chain(query)
-                
+                # ============================
+                # 🔥 FIX: USE CONTEXT-AWARE QUERY
+                # ============================
+                answer = st.session_state.qa_chain(combined_query)
+
                 elapsed = time.time() - t0
-                
-                # Display answer
+
                 placeholder.markdown(answer)
                 st.caption(f"⏱️ {elapsed:.1f}s | 📚 from {selected_collection}")
-                
-                # Store in session
-                st.session_state.messages.append({
-                    "role": "assistant",
-                    "content": answer
-                })
-                
+
+                st.session_state.messages.append(
+                    {"role": "assistant", "content": answer}
+                )
+
             except Exception as e:
                 placeholder.error(f"Error: {str(e)}")
-                st.session_state.messages.append({"role": "assistant", "content": f"Error: {str(e)}"})
+                st.session_state.messages.append(
+                    {"role": "assistant", "content": f"Error: {str(e)}"}
+                )
